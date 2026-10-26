@@ -42,3 +42,9 @@ PDF status: **ontbreekt** — gebruiker moet `books/lennart/de-geo-3vwo-leerboek
 4. Richtingsfeit niet expliciet gemaakt (alleen “koud”).
 
 **Fix:** les 0002 verdubbeld; SVG-checklist + diepte-eis in MaakToets-skill; overige lessen + reference bijgetrokken.
+
+## Vervolg 2026-10-26 — §3.1 completer zonder PDF
+
+Aangevuld uit publieke De Geo-samenvattingen (te checken tegen 10.1):
+ligging 4500×170, seizoenen ZH, klimaatgordels N→Z, 40° Z.B. westenwinden,
+camanchaca, El Niño, temp/neerslagfactoren-checklist. Quiz uitgebreid; toetsmix +10.

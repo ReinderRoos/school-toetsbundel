@@ -1,26 +1,25 @@
 # Goal
 
-§3.1 verdubbelen + diagramfouten;zelfde standaard in andere lessen + skill.
+Lennart AK toetsbundle: §3.1 volledig + rest op dieptest diepte; PDF later nalopen.
 
 # Done
 
-- [x] Les 0002 Chili-klimaat (~2×; Humboldt Z→N; wind vs water; pijlen/legenda)
-- [x] Skill MaakToets: diepte + SVG-checklist + geleerde fouten
-- [x] Lessen 0001, 0003–0007 + reference + NOTES
-- [x] CSS `.legend`
+- [x] Diepte/SVG-fix + commit `acc7350`
+- [x] §3.1 completer: gordels, 40°Z, camanchaca, El Niño, factorchecklist
+- [x] Reference + toetsmix bijgewerkt
 
 # Next
 
-- [ ] Gebruiker: PDF `@de-geo-3vwo` droppen
-- [ ] Na PDF: tegen boek nalopen
-- [ ] Commit als gebruiker dat vraagt
+- [ ] Commit deze §3.1-aanvulling
+- [ ] Gebruiker: PDF `@de-geo-3vwo` droppen → tegen boek nalopen
+- [ ] Daarna §2/§3 Chili en India-lessen tegen boek finetunen
 
 # Files
 
-- `lessons/0002-chili-klimaat.html` (kernfix)
-- `.cursor/skills/maaktoets/SKILL.md`
-- overige lessen + `reference/ak-chili-india-begrippen.html`
+- `lessons/0002-chili-klimaat.html`
+- `lessons/0007-toets-mix-chili-india.html`
+- `reference/ak-chili-india-begrippen.html`
 
 # Open problems
 
-- PDF De Geo ontbreekt
+- PDF ontbreekt — El Niño/camanchaca-detail tegen 10.1 verifiëren
