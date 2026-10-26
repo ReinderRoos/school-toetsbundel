@@ -105,6 +105,42 @@ a {
   margin-top: 0.65rem;
 }
 
+.legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.25rem;
+  margin-top: 0.75rem;
+  font-family: "IBM Plex Sans", "Segoe UI", sans-serif;
+  font-size: 0.82rem;
+  color: var(--muted);
+}
+
+.legend span {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.legend i {
+  display: inline-block;
+  width: 1.6rem;
+  height: 0;
+  border-top: 3px solid currentColor;
+}
+
+.legend i.dashed {
+  border-top-style: dashed;
+  border-top-width: 2px;
+}
+
+.legend i.water {
+  color: #0b5f6b;
+}
+
+.legend i.wind {
+  color: #6b4a0b;
+}
+
 .callout {
   border-left: 3px solid var(--accent);
   padding: 0.35rem 0 0.35rem 0.9rem;

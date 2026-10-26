@@ -9,56 +9,72 @@
 <body>
   <div class="wrap">
     <header class="site">
-      <p class="eyebrow">H3 §2 · Chili</p>
+      <p class="eyebrow">H3 §2 · Chili · De Geo 3VWO</p>
       <h1>Chili beeft: één plaatgrens, zware schokken</h1>
-      <p class="lede">De Nazcaplaat duikt onder de Zuid-Amerikaanse plaat. Dat heet <strong>subductie</strong> — en daar komen de zwaarste aardbevingen vandaan.</p>
+      <p class="lede">Chili ligt op de rand waar de <strong>Nazcaplaat</strong> en de <strong>Zuid-Amerikaanse plaat</strong> naar elkaar toe bewegen. Die convergentie + subductie verklaart waarom hier tot de zwaarste aardbevingen ter wereld voorkomen.</p>
     </header>
 
     <main>
-      <h2>De beweging</h2>
+      <h2>Wat beweegt er?</h2>
+      <p>De aardkorst bestaat uit platen die heel langzaam bewegen (centimeters per jaar), aangedreven door stromingen in de mantel (convectie). Bij Chili:</p>
       <ul>
-        <li><strong>Convergentie:</strong> platen bewegen naar elkaar toe.</li>
-        <li><strong>Oceanische plaat</strong> (Nazca): dunner, zwaarder → duikt onder.</li>
-        <li><strong>Continentale plaat</strong> (Zuid-Amerika): dikker, lichter → blijft “boven”.</li>
-        <li>Bij de duikzone ontstaat een diepe <strong>trog</strong> (Peru-Chilitrog) in de oceaan.</li>
+        <li><strong>Nazcaplaat</strong> — oceanisch: relatief dun, maar zwaar/dicht.</li>
+        <li><strong>Zuid-Amerikaanse plaat</strong> — continentaal: dikker, lichter; “blijft boven”.</li>
+        <li><strong>Convergentie</strong> — platen bewegen <em>naar elkaar toe</em> (niet uit elkaar, niet langs elkaar).</li>
+      </ul>
+      <p>Omdat de oceanische plaat zwaarder is, <strong>duikt</strong> die onder het continent: <strong>subductie</strong>. Bij de duikzone buigt de oceaanbodem omlaag → diepe <strong>trog</strong> (Peru-Chilitrog) parallel aan de kust.</p>
+
+      <h2>Waarom een aardbeving (niet vloeiend schuiven)?</h2>
+      <p>Platen schuiven niet als boter. Ze raken “vast” door wrijving. Spanning bouwt jaren tot eeuwen op. Als de wrijving het niet meer houdt, schiet een stuk van de breuk ineens los → seismische golven → aardbeving.</p>
+      <ul>
+        <li><strong>Hypocentrum</strong> — startpunt <em>in</em> de aarde (op de breuk).</li>
+        <li><strong>Epicentrum</strong> — punt <em>op</em> het aardoppervlak recht boven het hypocentrum (waar je op de kaart naar wijst).</li>
+        <li><strong>Naschokken</strong> — kleinere bevingen erna, terwijl spanning elders langs de breuk vrijkomt.</li>
       </ul>
 
       <figure class="figure">
-        <svg viewBox="0 0 640 280" role="img">
-          <title>Doorsnede subductie Chili</title>
-          <!-- ocean -->
-          <rect x="0" y="0" width="280" height="90" fill="#cfe8f2"/>
-          <text x="100" y="30" font-size="13" font-family="IBM Plex Sans, sans-serif">Grote Oceaan</text>
-          <!-- trench -->
-          <path d="M240 90 L280 130 L320 90" fill="#9ec4d4"/>
-          <text x="250" y="155" font-size="11" font-family="IBM Plex Sans, sans-serif">trog</text>
-          <!-- continent surface -->
-          <path d="M280 90 L640 90 L640 0 L280 0 Z" fill="#e8dcc8"/>
-          <text x="420" y="40" font-size="13" font-family="IBM Plex Sans, sans-serif">Zuid-Amerika</text>
-          <polygon points="380,90 420,40 460,90" fill="#8a9a7a"/>
-          <text x="420" y="75" text-anchor="middle" font-size="11" font-family="IBM Plex Sans, sans-serif" fill="#fff">Andes</text>
-          <!-- plates -->
-          <path d="M0 90 L260 90 L420 240 L0 240 Z" fill="#b08968" opacity="0.9"/>
-          <text x="80" y="170" font-size="13" font-family="IBM Plex Sans, sans-serif">Nazcaplaat →</text>
-          <path d="M280 90 L640 90 L640 240 L420 240 Z" fill="#c4a484"/>
-          <text x="500" y="170" font-size="13" font-family="IBM Plex Sans, sans-serif">Z-Am. plaat</text>
-          <!-- hypocenter -->
-          <circle cx="340" cy="150" r="8" fill="#8b1e1e"/>
-          <text x="355" y="145" font-size="11" font-family="IBM Plex Sans, sans-serif">hypocentrum</text>
-          <line x1="340" y1="150" x2="340" y2="70" stroke="#8b1e1e" stroke-dasharray="4 3"/>
-          <circle cx="340" cy="70" r="5" fill="#8b1e1e"/>
-          <text x="350" y="65" font-size="11" font-family="IBM Plex Sans, sans-serif">epicentrum</text>
+        <svg viewBox="0 0 720 300" role="img" aria-labelledby="t-beeft">
+          <title id="t-beeft">Doorsnede: Nazca duikt onder Zuid-Amerika</title>
+          <defs>
+            <marker id="arr-n" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+              <path d="M0,0 L8,4 L0,8 Z" fill="#1a1a1a"/>
+            </marker>
+          </defs>
+          <rect x="0" y="0" width="300" height="95" fill="#cfe8f2"/>
+          <text x="100" y="28" font-size="13" font-family="IBM Plex Sans, sans-serif">Grote Oceaan</text>
+          <path d="M250 95 L295 140 L340 95" fill="#9ec4d4"/>
+          <text x="268" y="165" font-size="12" font-family="IBM Plex Sans, sans-serif">trog</text>
+          <path d="M295 95 L720 95 L720 0 L295 0 Z" fill="#e8dcc8"/>
+          <text x="480" y="36" font-size="13" font-family="IBM Plex Sans, sans-serif">Zuid-Amerika (continent)</text>
+          <polygon points="420,95 470,35 520,95" fill="#8a9a7a"/>
+          <text x="470" y="80" text-anchor="middle" font-size="12" font-family="IBM Plex Sans, sans-serif" fill="#fff">Andes</text>
+          <path d="M0 95 L275 95 L460 260 L0 260 Z" fill="#b08968"/>
+          <text x="90" y="175" font-size="13" font-family="IBM Plex Sans, sans-serif">Nazcaplaat</text>
+          <path d="M80 130 H200" stroke="#1a1a1a" stroke-width="3" marker-end="url(#arr-n)"/>
+          <text x="100" y="122" font-size="11" font-family="IBM Plex Sans, sans-serif">naar het continent →</text>
+          <path d="M295 95 L720 95 L720 260 L460 260 Z" fill="#c4a484"/>
+          <text x="540" y="175" font-size="13" font-family="IBM Plex Sans, sans-serif">Z-Am. plaat</text>
+          <circle cx="370" cy="155" r="9" fill="#8b1e1e"/>
+          <text x="385" y="150" font-size="12" font-family="IBM Plex Sans, sans-serif">hypocentrum</text>
+          <line x1="370" y1="155" x2="370" y2="70" stroke="#8b1e1e" stroke-dasharray="4 3" stroke-width="2"/>
+          <circle cx="370" cy="70" r="6" fill="#8b1e1e"/>
+          <text x="385" y="65" font-size="12" font-family="IBM Plex Sans, sans-serif">epicentrum</text>
         </svg>
-        <figcaption>Subductie in doorsnede. Spanning bouwt op tot de platen met een ruk verschuiven = aardbeving.</figcaption>
+        <div class="legend">
+          <span><i class="water" style="border-top-color:#b08968"></i> Oceanische plaat (Nazca) duikt onder</span>
+          <span>● hypocentrum in de aarde · ● epicentrum aan oppervlak</span>
+        </div>
+        <figcaption>Doorsnede (west links). Elke pijl en elk label hoort erbij — zo lees je subductie af zonder te gissen.</figcaption>
       </figure>
 
-      <h2>Begrippen die vaak op de toets komen</h2>
-      <ul>
-        <li><strong>Hypocentrum</strong> — plek <em>in</em> de aarde waar de beving start.</li>
-        <li><strong>Epicentrum</strong> — plek <em>op</em> het aardoppervlak recht erboven.</li>
-        <li><strong>Seismisch gat</strong> — zone waar lang geen zware beving was; spanning kan groter zijn → mogelijk zwaardere klap.</li>
-        <li><strong>Naschokken</strong> — kleinere bevingen na de hoofdschok.</li>
-      </ul>
+      <h2>Seismisch gat</h2>
+      <p>Een <strong>seismisch gat</strong> is een strook langs de plaatgrens waar <em>lang</em> geen zware aardbeving is geweest, terwijl buursegmenten wél braken. Spanning kan daar blijven oplopen → als het wél breekt, vaak een zware beving. Het is een waarschuwingssignaal, geen voorspelling op datum.</p>
+
+      <h2>Tsunami (kort)</h2>
+      <p>Als de oceaanbodem bij de beving plots omhoog of omlaag schuift, duwt die de watermassa mee → tsunami. Daarom zijn kustbevingen bij subductie extra gevaarlijk. (Details: boek/figuren.)</p>
+
+      <h2>Modeltoetszin</h2>
+      <p>“In Chili botsen de Nazcaplaat en de Zuid-Amerikaanse plaat (convergentie); de zwaardere oceanische Nazcaplaat duikt onder (subductie), spanning bouwt op tot een aardbeving met hypocentrum in de aarde en epicentrum aan het oppervlak.”</p>
 
       <section class="quiz" aria-label="Quiz beeft">
         <h3>Check jezelf</h3>
@@ -70,10 +86,17 @@
           <p class="feedback"></p>
         </div>
         <div class="q" data-answer="2">
+          <p class="prompt">Waar ligt het epicentrum?</p>
+          <button type="button" class="opt">Diep in de aardkern zelf</button>
+          <button type="button" class="opt">Op de bodem van de mantel</button>
+          <button type="button" class="opt">Op het aardoppervlak erboven</button>
+          <p class="feedback"></p>
+        </div>
+        <div class="q" data-answer="1">
           <p class="prompt">Wat is een seismisch gat?</p>
           <button type="button" class="opt">Een trog zonder water erin</button>
-          <button type="button" class="opt">Een vulkaan zonder krater</button>
-          <button type="button" class="opt">Een zone zonder zware beving</button>
+          <button type="button" class="opt">Zone lang zonder zware beving</button>
+          <button type="button" class="opt">Een vulkaan zonder krateras</button>
           <p class="feedback"></p>
         </div>
       </section>
@@ -84,14 +107,14 @@
       <a href="0004-chili-brandt.html">Volgende: Chili brandt →</a>
     </nav>
 
-    <aside class="agent-note">Vraag de agent om Valdivia 1960 of een tsunami-keten te oefenen.</aside>
+    <aside class="agent-note">Vraag de agent om Valdivia 1960 of “hypo vs epi” tot het automatisch zit.</aside>
 
     <section class="sources">
       <h2>Bronnen</h2>
       <ul>
         <li>Primair: De Geo H3 §2 Chili beeft.</li>
         <li><a href="https://schooltv.nl/video-item/platentektoniek-een-mariengeoloog-legt-uit-hoe-aardlagen-ontstaan-zijn">Schooltv: Platentektoniek</a></li>
-        <li><a href="https://www.youtube.com/watch?v=wZCRGRLlfbg">YouTube: Platentektoniek in Zuid-Amerika</a> — Nazca/Andes.</li>
+        <li><a href="https://www.youtube.com/watch?v=wZCRGRLlfbg">YouTube: Platentektoniek in Zuid-Amerika</a></li>
       </ul>
     </section>
   </div>

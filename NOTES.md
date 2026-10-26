@@ -29,3 +29,16 @@ PDF status: **ontbreekt** — gebruiker moet `books/lennart/de-geo-3vwo-leerboek
 ## Open
 
 - PDF De Geo droppen → lessen tegen boek nalopen
+
+## Feedback 2026-10-26 — §3.1 te dun + diagramfouten
+
+**Gebruiker:** les te kort; Humboldt komt van zuidpool-kant (Z→N) en is daarom koud; wind vs water onduidelijk; halve kromme rechts zonder pijl.
+
+**Oorzaakanalyse:**
+
+1. Teach “kort” te letterlijk → bullet-schets i.p.v. toetsdiepte (keten + richting).
+2. SVG als decoratie: pad zonder pijlpunt/label → leerling moet raden (wind?).
+3. Zeestroom en wind visueel niet onderscheiden.
+4. Richtingsfeit niet expliciet gemaakt (alleen “koud”).
+
+**Fix:** les 0002 verdubbeld; SVG-checklist + diepte-eis in MaakToets-skill; overige lessen + reference bijgetrokken.

@@ -71,29 +71,49 @@ Schrijf analyse kort in `NOTES.md`.
 
 ### 4. Lesstructuur via teach (eerste pass)
 
-Maak **meerdere korte** lessen (één kernidee per les), niet één megapagina.
+Maak **meerdere lessen** (één kernidee per les), niet één megapagina.
 Nummering: volgende `lessons/NNNN-….html`.
+
+**Diepte (schooltoets ≠ teaser):** “Kort” bij teach = één idee per les, **niet** oppervlakkig.
+Per paragraaf-les mik op ongeveer **2×** de dunne schetsversie:
+
+- Waarom/hoe-keten (oorzaak → mechanisme → gevolg), niet alleen labels
+- Richtingen en herkomst waar relevant (N/Z/O/W; Z→N zeestroom; etc.)
+- Contrast of misconceptie (“zeestroom ≠ wind”)
+- Modeltoetszin + ≥3 quizvragen
+- Figuur met volledige legenda (zie §5)
 
 Aanbevolen bundle per toets-scope:
 
 1. Overzicht / routekaart
-2. Per paragraaf-cluster: uitleg + 1 visual + korte quiz
+2. Per paragraaf-cluster: uitleg + visual(s) + quiz
 3. Integratieles: gemengde oefenvragen (interleaving)
 4. Reference: begrippenkaart + must-know diagrammen
 
 Elke les:
 
-- Teach-stijl (Tufte, kort, ZPD, retrieval practice)
+- Teach-stijl (Tufte, ZPD, retrieval practice) + schooltoets-diepte hierboven
 - Link naar `assets/` (gedeelde CSS verplicht)
 - Primary source = relevante boekparagraaf + beste externe bron
 - Reminder: stel vervolgvragen aan de agent
 - Quizopties: gelijke woord-/tekenlengte (geen antwoordhints)
 
-### 5. Visuals (tweede pass)
+### 5. Visuals (tweede pass) — harde checklist
 
-- Hergebruik `assets/` (quiz, diagram-helpers). Nieuw = component in `assets/`.
-- Visuals: 1 diagram = 1 mechanisme (geen decoratie).
-- Open de eerste les in de browser indien mogelijk.
+- Hergebruik `assets/` (quiz, diagram-helpers, `.legend`). Nieuw = component in `assets/`.
+- Visuals: 1 hoofddiagram = 1 mechanisme (geen decoratie).
+- Open de les en **lees het diagram als leerling**: elk pad moet begrijpelijk zijn zonder de bodytekst.
+
+**SVG mag niet shippen als één van deze faalt:**
+
+1. Elke lijn/pijl heeft een **label** (wat is het?) én een **pijlpunt** (welke kant?).
+2. Geen “halve krommen” of open paden zonder einde/legenda.
+3. **Verschillende media = verschillende stijl + legenda**, bv.:
+   - zeestroom / water: dik, doorgetrokken, blauw
+   - luchtstroom / wind: dun, gestippeld, andere kleur
+4. Richtingsfeiten verifiëren (web/boek) vóór tekenen: Humboldtstroom = water **zuid → noord**; kaartschets toont N↑ Z↓.
+5. `figcaption` noemt wat de leerling moet aflezen; optioneel `<desc>` voor toegankelijkheid.
+6. Gebruik `.legend` uit `lesson.css` onder het figuur.
 
 ### 6. Externe uitlegbronnen
 
@@ -126,3 +146,17 @@ Lees `kids/<kind>.md` voor voorkeuren.
 - Illegale downloads
 - Volledige boektekst in lessen
 - Cards/dashboard-rommel; één idee per sectie
+- Bullet-lijst met alleen begrippen, zonder mechanisme/richting (“Humboldt = koud” zonder Z→N + herkomst)
+- SVG-paden zonder pijl, label of legenda (leerling raadt: wind of water?)
+- Wind en zeestroom visueel identiek
+
+## Geleerde fouten (feedback Lennart AK §3.1)
+
+Oorzaak → regel:
+
+| Oorzaak | Regel |
+|---------|--------|
+| Teach “kort” te letterlijk → te dun voor toets | Diepte-eis in §4 (~2× schets; keten + richting + quiz≥3) |
+| Schets-SVG afgeraffeld | SVG-checklist in §5 |
+| Zeestroom/wind niet onderscheiden | Verplichte legenda + stijlcontrast |
+| Richting niet gemaakt | N/Z op kaart; Humboldt Z→N expliciet in tekst én pijl |

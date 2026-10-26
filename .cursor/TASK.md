@@ -1,26 +1,26 @@
 # Goal
 
-MaakToets-skill in School-repo + eerste Lennart AK-toetsbundle (De Geo 3VWO 10.1, H3§1–3 + H5§1,3).
+§3.1 verdubbelen + diagramfouten;zelfde standaard in andere lessen + skill.
 
 # Done
 
-- [x] MaakToets skill (`.cursor/skills/maaktoets/`)
-- [x] Teaching workspace (MISSION, BOEKEN, kids, NOTES, RESOURCES, assets)
-- [x] Lennart AK lessen 0001–0007 + begrippen-reference
-- [x] Spec-check + commit `2805a65`
+- [x] Les 0002 Chili-klimaat (~2×; Humboldt Z→N; wind vs water; pijlen/legenda)
+- [x] Skill MaakToets: diepte + SVG-checklist + geleerde fouten
+- [x] Lessen 0001, 0003–0007 + reference + NOTES
+- [x] CSS `.legend`
 
 # Next
 
-- [ ] Gebruiker: PDF `@de-geo-3vwo` in `books/lennart/de-geo-3vwo-leerboek.pdf`
-- [ ] Na PDF: lessen tegen boek nalopen / bijsturen
-- [ ] Na oefenen: learning-records + begrippen → GLOSSARY
+- [ ] Gebruiker: PDF `@de-geo-3vwo` droppen
+- [ ] Na PDF: tegen boek nalopen
+- [ ] Commit als gebruiker dat vraagt
 
 # Files
 
+- `lessons/0002-chili-klimaat.html` (kernfix)
 - `.cursor/skills/maaktoets/SKILL.md`
-- `lessons/0001`–`0007`, `reference/ak-chili-india-begrippen.html`
-- `BOEKEN.md` — Status ontbreekt tot PDF er ligt
+- overige lessen + `reference/ak-chili-india-begrippen.html`
 
 # Open problems
 
-- PDF De Geo ontbreekt lokaal
+- PDF De Geo ontbreekt
