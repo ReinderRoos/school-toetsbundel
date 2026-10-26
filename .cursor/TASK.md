@@ -1,23 +1,22 @@
 # Goal
 
-Lennart AK toetsbundle: §3.1 volledig + rest op dieptest diepte; PDF later nalopen.
+AK-toetsbundel delen via GitHub zodat Lennart vanaf zijn laptop kan leren.
 
 # Done
 
-- [x] Diepte/SVG-fix + commit `acc7350`
-- [x] §3.1 completer: gordels, 40°Z, camanchaca, El Niño, factorchecklist
-- [x] Reference + toetsmix bijgewerkt
+- [x] Diepte/SVG-fix + Chili §1 + toetsmix (eerdere commits)
+- [x] `index.html` + README voor Lennart
 
 # Next
 
-- [x] Commit `d584525`
+- [ ] Repo op GitHub pushen + Pages of deel-instructie
 - [ ] Gebruiker: PDF `@de-geo-3vwo` droppen → tegen boek nalopen
-- [ ] Daarna §2/§3 Chili en India-lessen tegen boek finetunen
 
 # Files
 
-- `lessons/0002-chili-klimaat.html`
-- `lessons/0007-toets-mix-chili-india.html`
+- `index.html`
+- `README.md`
+- `lessons/*`
 - `reference/ak-chili-india-begrippen.html`
 
 # Open problems
