@@ -4,7 +4,9 @@ Lessen en oefeningen voor de Geo 3VWO (H3 §1–3, H5 §1 + §3).
 
 ## Voor Lennart — zo open je het
 
-**Optie A (makkelijkst):** open de site-link die je van papa krijgt (GitHub Pages). Start bij de homepage; klik door de lessen.
+**Optie A (makkelijkst):** open  
+https://reinderroos.github.io/school-toetsbundel/  
+Start bij de homepage; klik door de lessen.
 
 **Optie B (offline):**
 
