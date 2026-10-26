@@ -10,7 +10,7 @@ Lennart AK toetsbundle: §3.1 volledig + rest op dieptest diepte; PDF later nalo
 
 # Next
 
-- [ ] Commit deze §3.1-aanvulling
+- [x] Commit `d584525`
 - [ ] Gebruiker: PDF `@de-geo-3vwo` droppen → tegen boek nalopen
 - [ ] Daarna §2/§3 Chili en India-lessen tegen boek finetunen
 
