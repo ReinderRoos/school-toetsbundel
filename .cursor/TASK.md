@@ -7,21 +7,20 @@ MaakToets-skill in School-repo + eerste Lennart AK-toetsbundle (De Geo 3VWO 10.1
 - [x] MaakToets skill (`.cursor/skills/maaktoets/`)
 - [x] Teaching workspace (MISSION, BOEKEN, kids, NOTES, RESOURCES, assets)
 - [x] Lennart AK lessen 0001–0007 + begrippen-reference
-- [ ] Code-review + commit
+- [x] Spec-check + commit `2805a65`
 
 # Next
 
-- [ ] Spec/standards review
-- [ ] Git commit
-- [ ] Gebruiker: PDF `@de-geo-3vwo` in `books/lennart/` zetten
+- [ ] Gebruiker: PDF `@de-geo-3vwo` in `books/lennart/de-geo-3vwo-leerboek.pdf`
+- [ ] Na PDF: lessen tegen boek nalopen / bijsturen
+- [ ] Na oefenen: learning-records + begrippen → GLOSSARY
 
 # Files
 
 - `.cursor/skills/maaktoets/SKILL.md`
-- `BOEKEN.md`, `MISSION.md`, `RESOURCES.md`, `NOTES.md`
 - `lessons/0001`–`0007`, `reference/ak-chili-india-begrippen.html`
-- `assets/lesson.css`, `assets/quiz.js`
+- `BOEKEN.md` — Status ontbreekt tot PDF er ligt
 
 # Open problems
 
-- PDF De Geo ontbreekt — lessen tegen boek nalopen zodra beschikbaar
+- PDF De Geo ontbreekt lokaal
