@@ -1,25 +1,26 @@
 # Goal
 
-AK-toetsbundel delen via GitHub zodat Lennart vanaf zijn laptop kan leren.
+Uitgebreide toetsbundel Latijn DISCO 1 (4e herz. druk): teksten 13a + 14a, grammatica H13–H15, cultuur Romulus & Remus.
 
 # Done
 
-- [x] Diepte/SVG-fix + Chili §1 + toetsmix (eerdere commits)
-- [x] `index.html` + README voor Lennart
-- [x] GitHub: `ReinderRoos/school-toetsbundel` + Pages
+- [x] Bronnen/metadata DISCO 1 opgezocht
+- [x] Grammatica H13–H15 vastgesteld (adiectivum · relativum · AcI)
+- [x] Lessen `lessons/Latijn/0001` … `0006` + reference
+- [x] Update BOEKEN, MISSION, NOTES, RESOURCES, kids, index
 
 # Next
 
-- [ ] Gebruiker: PDF `@de-geo-3vwo` droppen → tegen boek nalopen
-- [ ] Daarna §2/§3 Chili en India-lessen tegen boek finetunen
+- [ ] Gebruiker: PDF `@disco-1` droppen ter controle
+- [ ] Bevestigen of H15-cultuur “Koningen van Rome” / eerdere ww-tijden meespeelt
+- [ ] Oefensessie toetsmix Latijn
 
 # Files
 
-- `https://reinderroos.github.io/school-toetsbundel/`
-- `https://github.com/ReinderRoos/school-toetsbundel`
-- `index.html`, `lessons/*`, `reference/*`
+- `lessons/Latijn/0001` … `0006`
+- `reference/latijn-disco-13-15-begrippen.html`
+- `BOEKEN.md`, `MISSION.md`, `NOTES.md`, `RESOURCES.md`, `kids/lennart.md`, `index.html`
 
 # Open problems
 
-- PDF ontbreekt — El Niño/camanchaca-detail tegen 10.1 verifiëren
-- Repo is **public** (Pages op free plan); desgewenst weer privé + ZIP-delen
+- Boek-PDF ontbreekt → “controleer tegen je boek” in lessen

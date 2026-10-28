@@ -12,7 +12,8 @@ argument-hint: "kind | vak | @boek-alias | H… §…"
 # MaakToets
 
 Doel: toetsvoorbereiding voor Lucie (4 VWO) of Lennart (3 gymnasium). Output =
-teach-workspace lessen (`./lessons/*.html`) + reference + boeken-index.
+teach-workspace lessen (`./lessons/<Vak>/*.html`) + reference + boeken-index.
+Vakmap = afkorting of korte naam (`AK`, `Grieks`, `WIS`, …).
 
 Deze skill **delegeert lesbouw aan teach** (`~/.claude/skills/teach/SKILL.md`).
 Volg teach voor MISSION, lessons, assets, RESOURCES, learning-records, glossary
@@ -72,7 +73,8 @@ Schrijf analyse kort in `NOTES.md`.
 ### 4. Lesstructuur via teach (eerste pass)
 
 Maak **meerdere lessen** (één kernidee per les), niet één megapagina.
-Nummering: volgende `lessons/NNNN-….html`.
+Nummering: volgende `lessons/<Vak>/NNNN-….html` (per vak apart doornummeren).
+Relatieve paden vanuit de les: `../../assets/`, `../../reference/`, `../../index.html`.
 
 **Diepte (schooltoets ≠ teaser):** “Kort” bij teach = één idee per les, **niet** oppervlakkig.
 Per paragraaf-les mik op ongeveer **2×** de dunne schetsversie:
@@ -97,6 +99,8 @@ Elke les:
 - Primary source = relevante boekparagraaf + beste externe bron
 - Reminder: stel vervolgvragen aan de agent
 - Quizopties: gelijke woord-/tekenlengte (geen antwoordhints)
+- Distractors: elke foute optie = typische misconceptie of naburig begrip uit dezelfde stof; absurde/onwaarschijnlijke opties verboden (check: “zou iemand die half geleerd heeft dit serieus kiezen?”)
+- Begrippenspel (match/koppel/uitsluiten): **alleen** als de les zich leent — veel verwisselbare labels/definities. Skip bij mechanisme-/kaart-/casuslessen; daar volstaat toepassingsquiz
 
 ### 5. Visuals (tweede pass) — harde checklist
 
@@ -149,8 +153,10 @@ Lees `kids/<kind>.md` voor voorkeuren.
 - Bullet-lijst met alleen begrippen, zonder mechanisme/richting (“Humboldt = koud” zonder Z→N + herkomst)
 - SVG-paden zonder pijl, label of legenda (leerling raadt: wind of water?)
 - Wind en zeestroom visueel identiek
+- Foute quizopties die te absurd zijn om serieus te kiezen
+- Begrippenspel forceren in een les die vooral mechanisme/kaart/casus is
 
-## Geleerde fouten (feedback Lennart AK §3.1)
+## Geleerde fouten (feedback Lennart AK)
 
 Oorzaak → regel:
 
@@ -160,3 +166,5 @@ Oorzaak → regel:
 | Schets-SVG afgeraffeld | SVG-checklist in §5 |
 | Zeestroom/wind niet onderscheiden | Verplichte legenda + stijlcontrast |
 | Richting niet gemaakt | N/Z op kaart; Humboldt Z→N expliciet in tekst én pijl |
+| Foute antwoorden te onwaarschijnlijk → gokbaar | Distractors = misconcepties / naburige begrippen; absurde opties verboden (§4) |
+| Begrippen niet speels geoefend waar dat past | Begrippenspel alleen als les zich leent (veel verwisselbare labels); anders skip (§4) |
