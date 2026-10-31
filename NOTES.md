@@ -105,3 +105,78 @@ PDF status: **ontbreekt** — gebruiker moet `books/lennart/de-geo-3vwo-leerboek
 Aangevuld uit publieke De Geo-samenvattingen (te checken tegen 10.1):
 ligging 4500×170, seizoenen ZH, klimaatgordels N→Z, 40° Z.B. westenwinden,
 camanchaca, El Niño, temp/neerslagfactoren-checklist. Quiz uitgebreid; toetsmix +10.
+
+## Analyse — Lennart EC toets Praktische Economie H2 §1–4 (zonder PDF)
+
+Bronnen: Malmberg release 6.2; ISBN 9789402091946 / MAX 9789402091939; StudyGo 3 vwo 6e (H2-titel); Ensie begrippen H2; Scholieren.com samenvattingen §1–4-titels.
+PDF status: **ontbreekt** — `books/lennart/praktische-economie-3vwo-6.2.pdf` plaatsen.
+GO zonder PDF: §-titels + complete begrippenmatrices uit ≥2 bronnen; cijfers/opdrachtnummers → check boek.
+
+### H2 De markt van vraag en aanbod
+
+| § | Titel | Kern |
+|---|--------|------|
+| 1 | Kopen is kiezen | Gevraagde hoeveelheid, vraaglijn (dalend), inkomen/koopkracht; langs vs van de lijn |
+| 2 | Winst is winst | Vaste/variabele kosten, TK, kostprijs, afzet, omzet/TO, TW=TO−TK, aanbodlijn |
+| 3 | Eenmaal, andermaal, verkocht! | Markt, vraag-/aanbodoverschot, evenwichtsprijs/-hoeveelheid, marktmechanisme |
+| 4 | Van alle markten thuis | Concurrentie; monopolie, oligopolie, monopolistische concurrentie, volkomen concurrentie; homo-/heterogeen; kartel; prijzenoorlog |
+
+### Toetsverwachting
+
+- Definities + complete tabellen (geen half)
+- Grafiek: vraag/aanbod/evenwicht aflezen
+- Rekenen: TW; evenwicht Qv=Qa
+- Casus → marktvorm herkennen
+
+## Analyse — Lennart GS toets MEMO §1.2 · §1.3 · §2.4 (zonder PDF)
+
+Bronnen: JoJoSchool TOC Leeropdrachtenboek A 3 vwo|gymnasium release 5.1 (ISBN 9789402083057); StudyGo Memo 3 vwo 5e (H1/H2-onderwerpen); Geschiedenis Gemist (Oorlog en Crisis); LessonUp/Flip educatieve begrippen.
+PDF status: **ontbreekt** — `books/lennart/memo-3vwo-5.1-a.pdf` plaatsen.
+GO zonder PDF: §-titels + complete begrippen/ketens uit ≥2 bronnen; formuleringen → check boek.
+**Editie-check:** in 5.1 is §2.4 = economische wereldcrisis. Oudere MeMo: H2§4 kon “bezetting NL” zijn (= nu H3§4).
+
+### Scope
+
+| § | Titel (5.1) | Kern |
+|---|-------------|------|
+| 1.2 | Spanningen in de wereld | Nationalisme, imperialisme, militarisme/wapenwedloop, Driebond vs Triple Entente, Balkan |
+| 1.3 | De Eerste Wereldoorlog | Aanleiding Sarajevo, ketting 1914, Schlieffen, Centralen/Geallieerden, loopgraven, totale oorlog, 1917–1918 |
+| 2.4 | De economische wereldcrisis | Beurskrach 1929, Depressie, verspreiding via handel/leningen, New Deal 1933 |
+
+### Toetsverwachting
+
+- Definities + complete bondgenootschapstabellen
+- Aanleiding ≠ oorzaken; kettingreactie 1914
+- Schlieffen-mechanisme + waarom loopgraven
+- Crisis-keten + waarom wereld / Duitsland hard
+- Jaartallen dreunen
+
+## Analyse — Lennart BIO toets BVJ Thema 1 BS1 · 2 · 3 · 6 (zonder PDF)
+
+Bronnen: JoJoSchool Deel A 2|3 VWO|GYMNASIUM 8.2 (ISBN 9789402072808); MijnBiologie BVJ 1.1–1.6; Malmberg leerdoelen VG T1 Verbranding en ademhaling; RSG Sneek begrippenlijst (KGT-proxy, andere §-nummering).
+PDF status: **ontbreekt** — `books/lennart/bvj-23a-8.2.pdf` plaatsen.
+GO zonder PDF: BS-titels + complete begrippen/ketens uit ≥2 publieke bronnen; figuurnummers → check boek.
+**Editie-check:** VG/gym: BS1 = Stofwisseling. Oudere KGT: verbranding eerst, stofwisseling soms “extra”.
+
+### Scope (Thema 1 Verbranding en ademhaling)
+
+| BS | Titel (VG 8.2) | Kern |
+|----|----------------|------|
+| 1 | Stofwisseling | Omzetten van stoffen; fotosynthese vs verbranding als voorbeelden; mitochondriën |
+| 2 | Verbranding | glucose + O₂ → H₂O + CO₂ + energie; brandstof; cel / warmte / beweging |
+| 3 | Het ademhalingsstelsel | Route neus→longblaasjes; gaswisseling; neusslijmvlies/trilharen; bronchiën |
+| 6 | Ademhaling bij dieren | Kieuwen · tracheeën/stigma’s · huidademhaling · longen (+ vogels: luchtzakken) |
+
+### Buiten scope (tenzij school meeneemt)
+
+- BS4 Ademhalen (borst/buik, ventilatie-mechaniek)
+- BS5 Gezonde luchtwegen
+- Extra: roken/blowen
+
+### Toetsverwachting
+
+- Definities + complete tabellen (geen half)
+- Reactievergelijkingen fotosynthese ↔ verbranding kunnen schrijven
+- Route ademhalingsstelsel + waar gaswisseling
+- Dier → ademhalingsorgaan matchen + waarom (water/lucht/grootte)
+

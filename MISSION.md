@@ -10,20 +10,20 @@ bijspringen gericht is en niet het boek naschrijven.
 
 - Per toets: korte HTML-lessen die één idee tegelijk uitleggen + oefenen
 - Leerboeken vindbaar via `@alias` in `BOEKEN.md`
-- Lennart kan DISCO 1 H13–H15: adiectivum-congruentie, qui/quae/quod, AcI
-  herkennen/vertalen in 13a/14a-context; cultuurketen Romulus & Remus navertellen
-- (Lopend) ARGO Grieks 11–14 en AK Chili/India blijven beschikbaar als routes
+- Lennart kan BVJ Thema 1: stofwisseling, verbranding (glucose+O₂),
+  ademhalingsstelsel (route + gaswisseling), ademhaling bij dieren (kieuwen/tracheeën/huid/longen)
+- (Archief) MEMO GS, PE H2, DISCO Latijn, ARGO Grieks, AK Chili/India blijven beschikbaar
 
 ## Constraints
 
 - Niveau: Lennart = 3 gymnasium (vwo-onderbouw); Lucie = 4 VWO
 - Geen illegale leerboek-downloads; PDF’s alleen legaal in `books/`
-- Lessen in het Nederlands; teach-structuur + schooltoets-diepte (maaktoets)
-- Actieve Latijn-scope: teksten 13a + 14a, grammatica H13–H15, cultuur Romulus;
-  controleer tegen `@disco-1`
+- Lessen in het Nederlands; maaktoets School-entrypoint (leerformaat: tabel eerst)
+- Actieve BIO-scope: `@bvj-23a` Thema 1 BS1 · 2 · 3 · 6 (release 8.2); PDF ontbreekt
 
 ## Out of scope
 
 - Volledige jaarcursus zonder toets-scope
 - Herschrijven of publiceren van leerboektekst
-- Disco H16+ (aanwijzend vnw e.d.) tenzij later expliciet gevraagd
+- Thema 1 BS4 Ademhalen / BS5 Gezonde luchtwegen tenzij later expliciet gevraagd
+- Thema 2–3 (voeding, bloedsomloop) tenzij later gevraagd
