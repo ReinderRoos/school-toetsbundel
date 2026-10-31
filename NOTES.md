@@ -58,6 +58,12 @@ PDF status: **ontbreekt** — `books/lennart/argo-1-hulpboek.pdf` plaatsen.
 
 - Imperfectum / aoristus / augment (ARGO ~3.10+)
 
+### Herbouw (na feedback)
+
+- Oud: lidwoord-GPS alleen ev + “check boek”; te veel Troje-proza.
+- Nieuw: complete lidwoordtabel m/v/o × ev+mv in `0012` + reference; tabellen eerst in alle lessen; mix met mv-lidwoord items.
+- GO zonder PDF: paradigma’s uit Wikibooks / nt-grieks / LessonUp; accenten/§ → boek.
+
 ### Open
 
 - PDF ARGO droppen → grammatica-nummers + idioomlijsten nalopen

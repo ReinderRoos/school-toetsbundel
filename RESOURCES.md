@@ -76,7 +76,7 @@
 - [Scholieren.com video: Disco tekst 13A](https://video.scholieren.com/serie/besprekingen-latijn-methode-disco/video/bespreking-disco-tekst-13a)
   Werkvertaling/grammatica-bespreking (betaald platform). Use for: oefensessie.
 
-### Grieks — ARGO les 11–14 (archief)
+### Grieks — ARGO les 11–14 (actief, herbouwd)
 
 - [Boom: ARGO Grieks onderbouw 2e editie](https://www.boom.nl/voortgezet-onderwijs/klassieke-talen/argo-grieks-onderbouw)
   Methode-info, digitale drills/video’s. Use for: boekstructuur, wat school digitaal biedt.
@@ -94,6 +94,10 @@
   Plot Agamemnon & Achilles. Use for: context, geen Griekse boektekst kopiëren.
 - [Wikibooks: imperativus](https://nl.wikibooks.org/wiki/Oudgrieks/Blok_1/4-Grammatica:_de_imperativus)
   Publieke uitleg -ε/-ετε + μή. Use for: cross-check vormen.
+- [Wikibooks: lidwoorden (volledig paradigma)](https://nl.wikibooks.org/wiki/Oudgrieks/Lidwoorden)
+  ὁ ἡ τό m/v/o × ev+mv. Use for: les 0012 + begrippenkaart.
+- [nt-grieks: Lidwoorden PDF](https://www.nt-grieks.nl/wp-content/uploads/2022/08/Lidwoorden.pdf)
+  Compacte tabel. Use for: second source full paradigm.
 
 ### Aardrijkskunde — De Geo (archief)
 
