@@ -1,26 +1,25 @@
 # Goal
 
-Uitgebreide toetsbundel Latijn DISCO 1 (4e herz. druk): teksten 13a + 14a, grammatica H13–H15, cultuur Romulus & Remus.
+Wayfinder-kaart Lennart leskwaliteit afgerond. Handoff: `/maaktoets` EC H2 §1–4 (GO-checklist in skill).
 
 # Done
 
-- [x] Bronnen/metadata DISCO 1 opgezocht
-- [x] Grammatica H13–H15 vastgesteld (adiectivum · relativum · AcI)
-- [x] Lessen `lessons/Latijn/0001` … `0006` + reference
-- [x] Update BOEKEN, MISSION, NOTES, RESOURCES, kids, index
+- [x] Destination + tickets 01–05 resolved (AFK)
+- [x] Diagnose Grieks → findings
+- [x] `maaktoets` geïntegreerd als School-entrypoint (teach onaangeroerd)
+- [x] Leerformaat, book-deferral, EC go/no-go, geleerde fouten Grieks in skill
 
 # Next
 
-- [ ] Gebruiker: PDF `@disco-1` droppen ter controle
-- [ ] Bevestigen of H15-cultuur “Koningen van Rome” / eerdere ww-tijden meespeelt
-- [ ] Oefensessie toetsmix Latijn
+- [ ] `/maaktoets Lennart | EC | Praktische Economie 3 vwo 6.2 | H2 §1-4` (nieuw chat ok)
+- [ ] `BOEKEN.md` entry PE bij eerste EC-run
+- [ ] Optioneel later: Latijn post-mortem tegen nieuwe regels
 
 # Files
 
-- `lessons/Latijn/0001` … `0006`
-- `reference/latijn-disco-13-15-begrippen.html`
-- `BOEKEN.md`, `MISSION.md`, `NOTES.md`, `RESOURCES.md`, `kids/lennart.md`, `index.html`
+- `.cursor/skills/maaktoets/SKILL.md`
+- `.scratch/lennart-leskwaliteit/` (map + issues + research)
 
 # Open problems
 
-- Boek-PDF ontbreekt → “controleer tegen je boek” in lessen
+- Praktische Economie PDF ontbreekt (GO zonder PDF toegestaan per checklist)
