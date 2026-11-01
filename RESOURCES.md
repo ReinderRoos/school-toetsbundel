@@ -2,14 +2,31 @@
 
 ## Knowledge
 
-### Biologie — BVJ Thema 1 BS1 · 2 · 3 · 6 (actief)
+### Biologie — BVJ Thema 2 BS1 · 2 · 3 · 6 (actief)
 
 - [JoJoSchool: BVJ Deel A 2|3 VWO|GYMNASIUM 8.2](https://leren.jojoschool.nl/course/biologie/books/biologie-voor-jou/deel-a-23-vwogymnasium-82)
   TOC Thema 1–3 + ISBN 9789402072808. Use for: BS-titels zonder PDF.
-- [Malmberg: leerdoelen BVJ onderbouw VG T1](https://malmberg.nl/voortgezet-onderwijs/nieuws/leerdoelenoverzichten-biologie-voor-jou-onderbouw-)
-  Officiële leerdoel-PDF’s per thema. Use for: scope check.
+- [Malmberg: leerdoelen BVJ onderbouw VG](https://malmberg.nl/voortgezet-onderwijs/nieuws/leerdoelenoverzichten-biologie-voor-jou-onderbouw-)
+  Officiële leerdoel-PDF’s T1–T6. Use for: scope check T2.
+- [MijnBiologie: BVJ klas 2 vwo](https://mijnbiologie.nl/bvj-klas-2-vwo/)
+  H2 Voeding en vertering 2.1–2.6. Use for: lesvolgorde.
+- [MijnBiologie: 2.1 Voedingsmiddelen en voedingsstoffen](https://mijnbiologie.nl/2-1-voedingsmiddelen-en-voedingsstoffen-samenvatting/)
+  6 groepen · 4 functies. Use for: les 0008.
+- [MijnBiologie: 2.1 uitlegfilm](https://mijnbiologie.nl/2-1-voedingsmiddelen-en-voedingsstoffen-uitlegfilm/)
+  Middel vs stof. Use for: les 0008.
+- [MijnBiologie: 2.2 Het verteringsstelsel](https://mijnbiologie.nl/bvj2-2-2-het-verteringsstelsel/)
+  Mechanisch/chemisch. Use for: les 0009.
+- [MijnBiologie: 2.3 Organen voor vertering](https://mijnbiologie.nl/2-3-de-organen-voor-vertering-samenvatting/)
+  Route · gal · vlokken. Use for: les 0010.
+- [MijnBiologie: 2.6 Zoogdieren](https://mijnbiologie.nl/2-6-voeding-en-vertering-bij-zoogdieren-samenvatting/)
+  Herbivoor/carnivoor/omnivoor. Use for: les 0011.
+- [FAQ Thema 2 Voeding en vertering](https://mijnbiologie.nl/faq-thema-2-voeding-en-vertering/)
+  Vraag-antwoord begrippen. Use for: reference + distractors.
+
+### Biologie — BVJ Thema 1 BS1 · 2 · 3 · 6 (archief)
+
 - [MijnBiologie: BVJ klas 3 vwo](https://mijnbiologie.nl/bvj-klas-3-vwo/)
-  Paragraafstructuur 1.1–1.6. Use for: lesvolgorde.
+  Paragraafstructuur 1.1–1.6. Use for: T1 lesvolgorde.
 - [MijnBiologie: 1.1 Stofwisseling](https://mijnbiologie.nl/1-1-stofwisseling-uitlegfilm/)
   Fotosynthese ↔ verbranding. Use for: les 0002.
 - [MijnBiologie: 1.2 Verbranding](https://mijnbiologie.nl/1-2-verbranding-samenvatting/)
@@ -19,7 +36,7 @@
 - [MijnBiologie: 1.6 Ademhaling bij dieren](https://mijnbiologie.nl/1-6-ademhaling-bij-dieren-samenvatting/)
   Kieuwen, tracheeën, luchtzakken. Use for: les 0005.
 - [RSG Sneek: BVJ KGT T1 begrippenlijst](https://biologie.rsg-sneek.nl/gt2/gt2th1/Bvj-2kgt-T1-begrippenlijst.pdf)
-  Officiële Malmberg-begrippen (andere §-nummering). Use for: cross-check termen.
+  Officiële Malmberg-begrippen (andere §-nummering). Use for: T1 cross-check.
 
 ### Geschiedenis — MEMO §1.2 · §1.3 · §2.4 (archief)
 

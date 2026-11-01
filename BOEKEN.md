@@ -103,11 +103,12 @@ PDF’s horen in `books/<kind>/`. Status: `aanwezig` | `ontbreekt` | `alleen-met
 - **Lokaal pad:** `books/lennart/bvj-23a-8.2.pdf` (nog plaatsen)
 - **Status:** ontbreekt
 - **Inhoud relevant voor actieve toets:**
-  - Thema 1 Verbranding en ademhaling — **Basisstof 1** Stofwisseling · **2** Verbranding · **3** Het ademhalingsstelsel · **6** Ademhaling bij dieren
-  - Buiten scope (tenzij school meeneemt): BS4 Ademhalen · BS5 Gezonde luchtwegen · extra stof roken/blowen
-- **TOC-bron:** JoJoSchool Deel A 2|3 VWO|GYMNASIUM 8.2; MijnBiologie BVJ klas 3; Malmberg leerdoelen VG T1
+  - Thema 2 Voeding en vertering — **Basisstof 1** Voedingsmiddelen en voedingsstoffen · **2** Het verteringsstelsel · **3** De organen voor vertering · **6** Voeding en vertering bij zoogdieren
+  - Buiten scope (tenzij school meeneemt): BS4 Gezonde voeding · BS5 Voedselbederf
+  - Archief Thema 1 BS1·2·3·6: Stofwisseling · Verbranding · Ademhalingsstelsel · Ademhaling bij dieren
+- **TOC-bron:** JoJoSchool Deel A 2|3 VWO|GYMNASIUM 8.2; MijnBiologie BVJ 2.1–2.6; Malmberg leerdoelen VG T2
 - **Uitgever:** https://malmberg.nl/voortgezet-onderwijs/bladerboeken-vo
-- **Notities:** PDF ontbreekt. Nummering VG: stofwisseling = BS1 (niet “extra” zoals in oudere KGT). Controleer tegen schoolboek.
+- **Notities:** PDF ontbreekt. “H2” in opdracht = Thema 2. Controleer §-titels tegen schoolboek 8.2.
 
 ## Lucie — 4 VWO
 

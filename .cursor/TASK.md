@@ -1,31 +1,32 @@
 # Goal
 
-Herbouw Lennart Grieks ARGO les 11–14 (`0008`–`0013` + reference) volgens leerformaat: complete paradigma’s ev+mv; tabel/lijst eerst; geen verhaal als hoofddrager.
+Maaktoets Lennart BIO `@bvj-23a` — **Thema 2 Voeding en vertering**, Basisstof **1 · 2 · 3 · 6** (lessen `0007`–`0012` + reference).
 
 # Done
 
-- [x] Route 0008 tabelgericht
-- [x] 0009 indicativus (tabel-first, ev+mv)
-- [x] 0010 imperativus/infinitivus (complete forms)
-- [x] 0011 εἰμί (complete + keuze-matrix)
-- [x] 0012 lidwoord **volledig** m/v/o × ev+mv + naamval-functies
-- [x] 0013 toetsmix + mv-lidwoord items
-- [x] Reference met volledige lidwoordtabel
-- [x] MISSION / kids / index / RESOURCES / NOTES / TASK
+- [x] NOTES/BOEKEN/MISSION analyse T2
+- [x] Reference begrippenkaart T2
+- [x] 0007 toetsroute
+- [x] 0008 BS1 voedingsstoffen
+- [x] 0009 BS2 verteringsstelsel
+- [x] 0010 BS3 organen
+- [x] 0011 BS6 zoogdieren
+- [x] 0012 toetsmix
+- [x] RESOURCES / kids / index / TASK
 
 # Next
 
-- [ ] Oefensessie: start `0008` of flitsdrill `0013`
-- [ ] Optioneel: PDF `@argo-1` droppen → accenten/§ nalopen
-- [ ] Bevestig of imperfectum/augment toch in de toets zit
+- [ ] Oefensessie: start `0007` of flitsdrill `0012`
+- [ ] Optioneel: PDF `@bvj-23a` droppen → figuren/§ nalopen
+- [ ] Bevestig of school BS4/BS5 toch meeneemt
 
 # Files
 
-- `lessons/Grieks/0008` … `0013`
-- `reference/grieks-argo-11-14-begrippen.html`
-- `kids/lennart.md`, `MISSION.md`, `index.html`, `NOTES.md`, `RESOURCES.md`
+- `lessons/BIO/0007` … `0012`
+- `reference/bio-bvj-t2-bs1236-begrippen.html`
+- `BOEKEN.md`, `NOTES.md`, `MISSION.md`, `RESOURCES.md`, `kids/lennart.md`, `index.html`
 
 # Open problems
 
-- PDF `@argo-1` ontbreekt → accenten/boeknummers checken
-- Bevestig of imperfectum al in deze toets zit (nu buiten scope)
+- PDF `@bvj-23a` ontbreekt → figuurnummers/exacte formules checken tegen boek 8.2
+- Bevestig of school BS4/BS5 toch meeneemt (nu buiten scope)

@@ -186,3 +186,32 @@ GO zonder PDF: BS-titels + complete begrippen/ketens uit ≥2 publieke bronnen; 
 - Route ademhalingsstelsel + waar gaswisseling
 - Dier → ademhalingsorgaan matchen + waarom (water/lucht/grootte)
 
+## Analyse — Lennart BIO toets BVJ Thema 2 BS1 · 2 · 3 · 6 (zonder PDF)
+
+Bronnen: JoJoSchool Deel A 2|3 VWO|GYMNASIUM 8.2; MijnBiologie 2.1 / 2.2 / 2.3 / 2.6 samenvattingen + FAQ Thema 2; Malmberg leerdoelen VG T2 Voeding en vertering.
+PDF status: **ontbreekt** — `books/lennart/bvj-23a-8.2.pdf` plaatsen.
+GO zonder PDF: BS-titels + complete tabellen uit ≥2 publieke bronnen; figuren → check boek.
+**Naam:** gebruiker zei “H2”; in BVJ = **Thema 2** (niet Thema 1).
+
+### Scope (Thema 2 Voeding en vertering)
+
+| BS | Titel (VG 8.2) | Kern |
+|----|----------------|------|
+| 1 | Voedingsmiddelen en voedingsstoffen | Middel ≠ stof; 6 groepen; 4 functies; vezel |
+| 2 | Het verteringsstelsel | Mechanisch ↔ chemisch; enzymen; wat wél/niet eerst verteren; peristaltiek |
+| 3 | De organen voor vertering | Route mond→anus; gal/emulgeren; alvleesklier; darmvlokken; water dikke darm |
+| 6 | Voeding en vertering bij zoogdieren | Herbivoor/carnivoor/omnivoor; darmlengte; plooi-/knip-/knobbelkiezen; cellulose |
+
+### Buiten scope (tenzij school meeneemt)
+
+- BS4 Gezonde voeding
+- BS5 Voedselbederf
+- Extra: nadenken over eten / samenhang-maximaal presteren
+
+### Toetsverwachting
+
+- Tabel: stof ↔ functie(s); middel vs stof
+- Mechanisch ≠ chemisch; gal emulgeert (geen enzym)
+- Orgaanroute + waar opname (dunne darm / vlokken)
+- Zoogdier → gebit + darmlengte matchen + waarom (cellulose)
+
