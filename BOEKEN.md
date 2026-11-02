@@ -94,6 +94,26 @@ PDF’s horen in `books/<kind>/`. Status: `aanwezig` | `ontbreekt` | `alleen-met
 - **Uitgever:** https://malmberg.nl/voortgezet-onderwijs/bladerboeken-vo
 - **Notities:** PDF ontbreekt. Scope = 5.1-nummering. Oudere MeMo-edities: H2§4 kan “bezetting NL” zijn (nu H3§4) — bevestig schooleditie.
 
+### nova-na-3a
+
+- **Alias:** `@nova-na-3a`
+- **Titel:** Nova Natuurkunde — Leeropdrachtenboek A · 3 vwo/gymnasium (MAX)
+- **Uitgever:** Malmberg
+- **Editie / release:** release **5.1** (2022)
+- **ISBN:** 9789402073140
+- **Kind:** Lennart
+- **Vak:** NA / Natuurkunde
+- **Lokaal pad:** `books/lennart/nova-na-3a-5.1.pdf` (nog plaatsen)
+- **Status:** ontbreekt
+- **Inhoud relevant voor actieve toets:**
+  - **H1 Elektriciteit** — §1 Elektrische energie opwekken · §2 Elektrische energie vervoeren · §3 Elektriciteit in huis · §4 Elektriciteit en veiligheid
+  - **Vaardigheden** — **2** Grootheden en eenheden · **3** Machten van 10 · **5** Formules · **7** Uitkomsten afronden
+  - Flitskaarten / begrippen H1
+  - Buiten scope (tenzij school meeneemt): H1 Praktijk supernetwerk · H2 Krachten · V1·4·6·8·9·10
+- **TOC-bron:** JoJoSchool Leeropdrachtenboek A 3 vwo|gymnasium 5.1; Dedicon/ISBN 9789402073140
+- **Uitgever:** https://malmberg.nl/voortgezet-onderwijs/methodes/exacte-vakken/natuurkunde
+- **Notities:** PDF ontbreekt. GO via publieke §-titels + samenvattingen (≥2 bronnen). Cijfers/figuren/kleuren tegen boek 5.1 checken.
+
 ### nova-3a
 
 - **Alias:** `@nova-3a`
@@ -105,7 +125,7 @@ PDF’s horen in `books/<kind>/`. Status: `aanwezig` | `ontbreekt` | `alleen-met
 - **Vak:** SK / Scheikunde
 - **Lokaal pad:** `books/lennart/nova-3a-5.0.pdf` (nog plaatsen)
 - **Status:** ontbreekt
-- **Inhoud relevant voor actieve toets:**
+- **Inhoud relevant voor eerdere toets:**
   - **H1 Materialen en stoffen** — §1 Materialen · §2 Het deeltjesmodel · §3 Zuivere stoffen en mengsels · §4 Scheidingsmethoden
   - **H2 Chemische reacties** — §1 Moleculen en atomen · §2 Reactievergelijkingen · §3 Chemische synthese en ontleding
   - Buiten scope (tenzij school meeneemt): §2.4 Verbrandingsreacties · H3+

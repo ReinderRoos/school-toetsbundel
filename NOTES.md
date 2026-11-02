@@ -8,6 +8,44 @@
 - ARGO Grieks hulpboek 1: **2e editie (2022)**
 - DISCO 1 Latijn: **4e herziene druk (2012)**, Primavera
 - Nova Scheikunde 3 VG A: **release 5.0** (ISBN 9789402068801)
+- Nova Natuurkunde 3 VG A: **release 5.1** (ISBN 9789402073140)
+
+## Analyse — Lennart NA toets Nova H1 Elektriciteit + V2·3·5·7 (zonder PDF)
+
+Bronnen: JoJoSchool TOC Leeropdrachtenboek A 3 vwo|gymnasium 5.1 (ISBN 9789402073140); Dedicon/Bureau ISBN; Stuvia/Knowunity/LessonUp H1 §1–4; Wikiwijs vaardighedenblad onderbouw; Wetenschapschool transformator-video.
+PDF status: **ontbreekt** — `books/lennart/nova-na-3a-5.1.pdf` plaatsen.
+GO zonder PDF: §-titels + complete must-know tabellen uit ≥2 publieke bronnen; cijfers/figuren/kleuren → check boek.
+**Query-note:** dit keer écht **NA** (niet AK). Scope matcht Nova 5.1 H1 Elektriciteit (4 §§) + genummerde Vaardigheden 2·3·5·7 + flitskaarten.
+
+### Scope
+
+| § / V | Titel (5.1) | Kern |
+|-------|-------------|------|
+| 1.1 | Elektrische energie opwekken | Centrale-keten · inductie · E=P·t · geleverd/opgenomen P |
+| 1.2 | Elektrische energie vervoeren | Hoogspanning · net 230 V/50 Hz · transformator Up:Us=Np:Ns |
+| 1.3 | Elektriciteit in huis | Parallelle groepen · P=U·I · overbelasting/kortsluiting · draadkleuren |
+| 1.4 | Elektriciteit en veiligheid | Automaat · aardlek ~30 mA · randaarde · (dubbele) isolatie |
+| V2 | Grootheden en eenheden | Grootheid ≠ eenheid · SI-notatie |
+| V3 | Machten van 10 | Prefixen m/k/M · wetenschappelijke notatie |
+| V5 | Formules | Omrekenen → invullen |
+| V7 | Uitkomsten afronden | Significante cijfers (×÷ = minste) |
+
+### Buiten scope (tenzij school meeneemt)
+
+- H1 Praktijk “supernetwerk voor Europa”
+- H2 Krachten e.v.
+- Vaardigheden 1·4·6·8·9·10
+
+### Toetsverwachting
+
+- Complete tabellen: keten · transformator · beveiligingscontrast · prefixen
+- Rekenen: E=P·t · P=U·I · transformatorverhouding · prefix-omrekenen
+- Flits: begrip ↔ definitie
+
+### Open
+
+- PDF droppen → figuren/exacte kV-stappen/kleuren
+- Bevestig of Praktijk-supernetwerk meespeelt
 
 ## Analyse — Lennart SK toets NOVA H1 + H2 t/m §2.3 (zonder PDF)
 

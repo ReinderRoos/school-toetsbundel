@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>§1.3 Elektriciteit in huis</title>
+  <link rel="stylesheet" href="../../assets/lesson.css" />
+</head>
+<body>
+  <div class="wrap">
+    <header class="site">
+      <p class="eyebrow">Lennart · NA · NOVA §1.3 · @nova-na-3a</p>
+      <h1>Elektriciteit in huis</h1>
+      <p class="lede">Parallelle groepen, allemaal 230 V. Reken met P = U·I en E = P·t.</p>
+    </header>
+
+    <main>
+      <p class="callout">Draadkleuren en max. stroom per groep tegen boek/installatieplaatje checken.</p>
+
+      <h2>1. Leer dit — huisinstallatie</h2>
+      <table>
+        <thead>
+          <tr><th>Begrip</th><th>Definitie</th></tr>
+        </thead>
+        <tbody>
+          <tr><td><strong>Huisinstallatie</strong></td><td>Netwerk van groepen naar stopcontacten en lampen</td></tr>
+          <tr><td><strong>Groep</strong></td><td>Parallelle tak; eigen groepsschakelaar / zekering in de meterkast</td></tr>
+          <tr><td><strong>Parallel</strong></td><td>Over elk apparaat dezelfde spanning (≈ bronspanning 230 V)</td></tr>
+          <tr><td><strong>Stroom in een groep</strong></td><td>Itot = I1 + I2 + … (som van de takken)</td></tr>
+        </tbody>
+      </table>
+      <p><strong>Voordeel parallel:</strong> één apparaat uit → rest blijft werken; niet het hele huis valt uit bij één fout (mits andere groepen).</p>
+
+      <h2>2. Leer dit — draadkleuren (NL-standaard)</h2>
+      <table>
+        <thead>
+          <tr><th>Draad</th><th>Kleur (check boek)</th><th>Rol</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Fasedraad</td><td>Bruin</td><td>Voert ~230 V wisselspanning</td></tr>
+          <tr><td>Nuldraad</td><td>Blauw</td><td>Retour; geen “bronspanning” t.o.v. nul</td></tr>
+          <tr><td>Schakeldraad</td><td>Zwart</td><td>Spanning alleen als schakelaar aan staat</td></tr>
+          <tr><td>Aardedraad</td><td>Geel/groen</td><td>Veiligheid (zie §1.4 randaarde)</td></tr>
+        </tbody>
+      </table>
+
+      <h2>3. Leer dit — rekenen in huis</h2>
+      <table>
+        <thead>
+          <tr><th>Formule</th><th>Eenheden (basis)</th><th>Herschrijven</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>P = U · I</td><td>W, V, A</td><td>I = P/U ··· U = P/I</td></tr>
+          <tr><td>E = P · t</td><td>J = W·s ··· of kWh = kW·h</td><td>P = E/t ··· t = E/P</td></tr>
+        </tbody>
+      </table>
+      <p><strong>Modelrekensom:</strong> strijkijzer P = 2300 W op U = 230 V → I = 2300/230 = 10 A. Drie van die apparaten in één groep → 30 A → overbelasting (typische groep ~16 A — check boek).</p>
+
+      <h2>4. Leer dit — overbelasting vs kortsluiting</h2>
+      <table>
+        <thead>
+          <tr><th></th><th>Overbelasting</th><th>Kortsluiting</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Oorzaak</td>
+            <td>Te veel apparaten → te grote totale I</td>
+            <td>Stroom vindt pad met zeer kleine weerstand</td>
+          </tr>
+          <tr>
+            <td>Gevaar</td>
+            <td>Kabels worden te warm → brandrisico</td>
+            <td>Zeer grote stroom, vonken/brand, schade</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2>5. Mechanisme</h2>
+      <p>Parallel: elk apparaat “ziet” 230 V. Meer apparaten aan → meer takstromen → grotere Itot in de toevoerleiding van die groep. Zekering/automaat begrenst die Itot (uitwerking in §1.4).</p>
+
+      <figure class="figure">
+        <svg viewBox="0 0 460 180" role="img" aria-labelledby="t-par" xmlns="http://www.w3.org/2000/svg">
+          <title id="t-par">Parallelle groep met drie takken</title>
+          <desc>Bron links, drie parallelle lampen; stromen tellen op in de hoofddraad.</desc>
+          <defs>
+            <marker id="ap" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#0b5f6b"/></marker>
+          </defs>
+          <rect width="460" height="180" fill="#f7f4ef"/>
+          <rect x="20" y="70" width="50" height="40" rx="3" fill="#d7eef1" stroke="#0b5f6b" stroke-width="2"/>
+          <text x="45" y="95" text-anchor="middle" font-size="11" font-weight="700" fill="#0b5f6b" font-family="sans-serif">230 V</text>
+          <path d="M70 90 H120" stroke="#0b5f6b" stroke-width="2.5" marker-end="url(#ap)"/>
+          <text x="95" y="78" text-anchor="middle" font-size="10" fill="#0b5f6b" font-family="sans-serif">Itot</text>
+          <path d="M120 90 V40 H200" stroke="#0b5f6b" stroke-width="2"/>
+          <path d="M120 90 H200" stroke="#0b5f6b" stroke-width="2"/>
+          <path d="M120 90 V140 H200" stroke="#0b5f6b" stroke-width="2"/>
+          <circle cx="220" cy="40" r="14" fill="#fff" stroke="#6b4a0b" stroke-width="2"/>
+          <text x="220" y="44" text-anchor="middle" font-size="10" fill="#6b4a0b" font-family="sans-serif">I1</text>
+          <circle cx="220" cy="90" r="14" fill="#fff" stroke="#6b4a0b" stroke-width="2"/>
+          <text x="220" y="94" text-anchor="middle" font-size="10" fill="#6b4a0b" font-family="sans-serif">I2</text>
+          <circle cx="220" cy="140" r="14" fill="#fff" stroke="#6b4a0b" stroke-width="2"/>
+          <text x="220" y="144" text-anchor="middle" font-size="10" fill="#6b4a0b" font-family="sans-serif">I3</text>
+          <path d="M234 40 H320 V90" stroke="#0b5f6b" stroke-width="2"/>
+          <path d="M234 90 H320" stroke="#0b5f6b" stroke-width="2"/>
+          <path d="M234 140 H320 V90" stroke="#0b5f6b" stroke-width="2"/>
+          <path d="M320 90 H400" stroke="#0b5f6b" stroke-width="2.5" marker-end="url(#ap)"/>
+          <text x="360" y="78" text-anchor="middle" font-size="10" fill="#0b5f6b" font-family="sans-serif">nul</text>
+          <text x="230" y="172" text-anchor="middle" font-size="11" fill="#555" font-family="sans-serif">U overal gelijk · Itot = I1 + I2 + I3</text>
+        </svg>
+        <div class="legend">
+          <span><i class="water"></i> hoofdstroom Itot</span>
+          <span><i class="wind"></i> takstromen</span>
+        </div>
+        <figcaption>Lees af: spanning per tak gelijk; stromen tellen op in de toevoer.</figcaption>
+      </figure>
+
+      <section class="quiz" aria-label="Quiz huis">
+        <h3>Quiz</h3>
+        <div class="q" data-answer="1">
+          <p class="prompt">1. In een parallelle huisgroep is de spanning…</p>
+          <button type="button" class="opt">Overal verschillend en opgeteld tot 230 V</button>
+          <button type="button" class="opt">Over elk apparaat ongeveer 230 V</button>
+          <button type="button" class="opt">Alleen op de nuldraad 230 V</button>
+          <button type="button" class="opt">Nul, want alles staat in serie</button>
+          <p class="feedback" aria-live="polite"></p>
+        </div>
+        <div class="q" data-answer="2">
+          <p class="prompt">2. P = 1150 W, U = 230 V. Wat is I?</p>
+          <button type="button" class="opt">0,20 A</button>
+          <button type="button" class="opt">2,0 A</button>
+          <button type="button" class="opt">5,0 A</button>
+          <button type="button" class="opt">50 A</button>
+          <p class="feedback" aria-live="polite"></p>
+        </div>
+        <div class="q" data-answer="0">
+          <p class="prompt">3. Overbelasting betekent vooral…</p>
+          <button type="button" class="opt">Te grote totale stroom door te veel apparaten</button>
+          <button type="button" class="opt">Dat de frequentie hoger wordt dan 50 Hz</button>
+          <button type="button" class="opt">Dat de transformator Ns groter maakt</button>
+          <button type="button" class="opt">Dat alleen de nuldraad onder spanning staat</button>
+          <p class="feedback" aria-live="polite"></p>
+        </div>
+        <div class="q" data-answer="3">
+          <p class="prompt">4. Kortsluiting is…</p>
+          <button type="button" class="opt">Te weinig apparaten op één groep</button>
+          <button type="button" class="opt">Alleen een te lage netfrequentie</button>
+          <button type="button" class="opt">Spanning die vanzelf naar 0 V daalt</button>
+          <button type="button" class="opt">Stroom via een pad met zeer kleine weerstand</button>
+          <p class="feedback" aria-live="polite"></p>
+        </div>
+      </section>
+
+      <div class="nav">
+        <a href="0003-elektrische-energie-vervoeren.html">← 0003</a>
+        <a href="0005-elektriciteit-veiligheid.html">Volgende: 0005 →</a>
+      </div>
+      <p class="agent-note">Vraag om kWh-rekenrijtjes of groepsbelasting-sommen.</p>
+      <aside class="sources">
+        <h2>Bronnen</h2>
+        <ul>
+          <li>Primair: Nova §1.3 Elektriciteit in huis</li>
+        </ul>
+      </aside>
+    </main>
+  </div>
+  <script src="../../assets/quiz.js"></script>
+</body>
+</html>

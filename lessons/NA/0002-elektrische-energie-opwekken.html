@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>§1.1 Elektrische energie opwekken</title>
+  <link rel="stylesheet" href="../../assets/lesson.css" />
+</head>
+<body>
+  <div class="wrap">
+    <header class="site">
+      <p class="eyebrow">Lennart · NA · NOVA §1.1 · @nova-na-3a</p>
+      <h1>Elektrische energie opwekken</h1>
+      <p class="lede">Van brandstof naar stoom naar turbine naar generator. Inductie maakt wisselspanning.</p>
+    </header>
+
+    <main>
+      <p class="callout">Temperatuur/druk-cijfers en wattpiek-formule tegen boek 5.1 checken.</p>
+
+      <h2>1. Leer dit — keten in de centrale</h2>
+      <table>
+        <thead>
+          <tr><th>Stap</th><th>Wat gebeurt er</th><th>Energievorm</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Branders / ketel</td>
+            <td>Brandstof verhit water → hete stoom onder hoge druk</td>
+            <td>Chemisch → warmte → stoom</td>
+          </tr>
+          <tr>
+            <td>Turbine</td>
+            <td>Stoom spuit tegen schoepen → turbine draait</td>
+            <td>Bewegingsenergie</td>
+          </tr>
+          <tr>
+            <td>Generator</td>
+            <td>Draaiende as wekt elektrische energie op (dynamo)</td>
+            <td>Elektrisch</td>
+          </tr>
+          <tr>
+            <td>Transformator</td>
+            <td>Spanning omhoog voor transport (zie §1.2)</td>
+            <td>Elektrisch (andere U)</td>
+          </tr>
+          <tr>
+            <td>Condensor</td>
+            <td>Afgewerkte stoom koelt → water terug naar ketel</td>
+            <td>Warmte afgevoerd</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2>2. Leer dit — inductie</h2>
+      <table>
+        <thead>
+          <tr><th>Begrip</th><th>Definitie</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Inductie</strong></td>
+            <td>Veranderend magneetveld in/bij een spoel → spanning tussen de uiteinden</td>
+          </tr>
+          <tr>
+            <td><strong>Inductiespanning</strong></td>
+            <td>De opgewekte spanning (vaak wisselspanning)</td>
+          </tr>
+          <tr>
+            <td><strong>Wisselspanning</strong></td>
+            <td>Spanning die steeds van richting / polariteit wisselt</td>
+          </tr>
+          <tr>
+            <td><strong>Weekijzer</strong></td>
+            <td>IJzer dat snel magnetiseert en demagnetiseert (kern in dynamo/transformator)</td>
+          </tr>
+          <tr>
+            <td><strong>Dynamo / generator</strong></td>
+            <td>Apparaat dat bewegingsenergie omzet in elektrische energie via inductie</td>
+          </tr>
+        </tbody>
+      </table>
+      <p><strong>Model:</strong> magneet heen-en-weer in spoel → wisselspanning. In de praktijk: draaiende magneet/spoel; per omwenteling verandert het veld twee keer van richting.</p>
+
+      <h2>3. Leer dit — vermogen en energie</h2>
+      <table>
+        <thead>
+          <tr><th>Grootheid</th><th>Symbool</th><th>Eenheid</th><th>Formule</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Energie</td><td>E</td><td>J · kWh</td><td>E = P · t</td></tr>
+          <tr><td>Vermogen</td><td>P</td><td>W · kW</td><td>P = E / t ··· 1 W = 1 J/s</td></tr>
+          <tr><td>Tijd</td><td>t</td><td>s · h</td><td>—</td></tr>
+        </tbody>
+      </table>
+      <table>
+        <thead>
+          <tr><th>Term</th><th>Betekenis</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Geleverd elektrisch vermogen</td><td>Wat generator/centrale aan het net levert</td></tr>
+          <tr><td>Opgenomen elektrisch vermogen</td><td>Wat een apparaat uit het net haalt</td></tr>
+        </tbody>
+      </table>
+      <p><strong>Misconceptie:</strong> groot vermogen ≠ automatisch groot energieverbruik. Kort gebruiken → toch weinig E (want E = P·t).</p>
+      <p><strong>Modelrekensom:</strong> P = 60 W, t = 2,0 h = 7200 s → E = 60 × 7200 = 4,3·10⁵ J (of in kWh: 0,060 kW × 2,0 h = 0,12 kWh).</p>
+
+      <h2>4. Mechanisme</h2>
+      <p>Zonder beweging of veranderend veld geen inductie → geen stroom uit de generator. De turbine levert die beweging; brandstof (of zon/wind/water) levert de energie daarvóór.</p>
+
+      <figure class="figure">
+        <svg viewBox="0 0 460 170" role="img" aria-labelledby="t-gen" xmlns="http://www.w3.org/2000/svg">
+          <title id="t-gen">Inductie: magneet beweegt bij spoel</title>
+          <desc>Pijl toont beweging van magneet door spoel; spanning ontstaat tussen spoeluiteinden.</desc>
+          <defs>
+            <marker id="arr2" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#0b5f6b"/></marker>
+            <marker id="arr3" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#6b4a0b"/></marker>
+          </defs>
+          <rect width="460" height="170" fill="#f7f4ef"/>
+          <rect x="160" y="45" width="140" height="70" rx="6" fill="#fff" stroke="#0b5f6b" stroke-width="2"/>
+          <text x="230" y="75" text-anchor="middle" font-size="12" font-weight="700" fill="#0b5f6b" font-family="sans-serif">spoel</text>
+          <text x="230" y="95" text-anchor="middle" font-size="10" fill="#555" font-family="sans-serif">koperdraad</text>
+          <rect x="70" y="60" width="50" height="40" rx="3" fill="#f0e6d2" stroke="#6b4a0b" stroke-width="2"/>
+          <text x="95" y="85" text-anchor="middle" font-size="11" font-weight="700" fill="#6b4a0b" font-family="sans-serif">N/Z</text>
+          <path d="M125 80 H150" stroke="#6b4a0b" stroke-width="2.5" marker-end="url(#arr3)"/>
+          <text x="138" y="70" text-anchor="middle" font-size="10" fill="#6b4a0b" font-family="sans-serif">beweging</text>
+          <path d="M300 60 H360" stroke="#0b5f6b" stroke-width="2.5" marker-end="url(#arr2)"/>
+          <path d="M300 100 H360" stroke="#0b5f6b" stroke-width="2.5" marker-end="url(#arr2)"/>
+          <text x="400" y="70" text-anchor="middle" font-size="11" fill="#0b5f6b" font-family="sans-serif">U~</text>
+          <text x="400" y="110" text-anchor="middle" font-size="11" fill="#0b5f6b" font-family="sans-serif">inductie</text>
+          <text x="230" y="150" text-anchor="middle" font-size="11" fill="#555" font-family="sans-serif">veranderend veld → wisselspanning</text>
+        </svg>
+        <div class="legend">
+          <span><i class="wind"></i> magneetbeweging</span>
+          <span><i class="water"></i> inductiespanning</span>
+        </div>
+        <figcaption>Lees af: beweging (of draaien) is nodig; stilstaand veld wekt geen wisselspanning op.</figcaption>
+      </figure>
+
+      <section class="quiz" aria-label="Quiz opwekken">
+        <h3>Quiz</h3>
+        <div class="q" data-answer="2">
+          <p class="prompt">1. Welke omzetting gebeurt in de generator?</p>
+          <button type="button" class="opt">Warmte → chemische energie</button>
+          <button type="button" class="opt">Elektrisch → bewegingsenergie</button>
+          <button type="button" class="opt">Beweging → elektrische energie</button>
+          <button type="button" class="opt">Licht → kinetische energie</button>
+          <p class="feedback" aria-live="polite"></p>
+        </div>
+        <div class="q" data-answer="1">
+          <p class="prompt">2. Inductiespanning ontstaat als…</p>
+          <button type="button" class="opt">De spoel permanent stil bij een vaste magneet ligt</button>
+          <button type="button" class="opt">Het magneetveld in/bij de spoel verandert</button>
+          <button type="button" class="opt">Alleen de temperatuur van weekijzer stijgt</button>
+          <button type="button" class="opt">De netspanning precies 230 V is</button>
+          <p class="feedback" aria-live="polite"></p>
+        </div>
+        <div class="q" data-answer="0">
+          <p class="prompt">3. Lamp 40 W brandt 3,0 h. Energie in kWh?</p>
+          <button type="button" class="opt">0,12 kWh</button>
+          <button type="button" class="opt">120 kWh</button>
+          <button type="button" class="opt">0,040 kWh</button>
+          <button type="button" class="opt">43 kWh</button>
+          <p class="feedback" aria-live="polite"></p>
+        </div>
+        <div class="q" data-answer="3">
+          <p class="prompt">4. Opgenomen vermogen hoort bij…</p>
+          <button type="button" class="opt">Alleen de turbine in de centrale</button>
+          <button type="button" class="opt">Alleen de hoogspanningskabel</button>
+          <button type="button" class="opt">De generator die levert aan het net</button>
+          <button type="button" class="opt">Een apparaat dat energie uit het net haalt</button>
+          <p class="feedback" aria-live="polite"></p>
+        </div>
+      </section>
+
+      <div class="nav">
+        <a href="0001-toetsroute-nova-h1.html">← Route</a>
+        <a href="0003-elektrische-energie-vervoeren.html">Volgende: 0003 →</a>
+      </div>
+      <p class="agent-note">Vraag om wattpiek-sommen of een flitsronde inductie-begrippen.</p>
+      <aside class="sources">
+        <h2>Bronnen</h2>
+        <ul>
+          <li>Primair: Nova §1.1 Elektrische energie opwekken</li>
+          <li><a href="https://www.youtube.com/watch?v=fLBUekVWer0">Wetenschapschool: transformator (context generator→net)</a></li>
+        </ul>
+      </aside>
+    </main>
+  </div>
+  <script src="../../assets/quiz.js"></script>
+</body>
+</html>

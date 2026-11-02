@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>§1.2 Elektrische energie vervoeren</title>
+  <link rel="stylesheet" href="../../assets/lesson.css" />
+</head>
+<body>
+  <div class="wrap">
+    <header class="site">
+      <p class="eyebrow">Lennart · NA · NOVA §1.2 · @nova-na-3a</p>
+      <h1>Elektrische energie vervoeren</h1>
+      <p class="lede">Hoge spanning → lage stroom → minder warmteverlies. Transformator past U aan.</p>
+    </header>
+
+    <main>
+      <p class="callout">Exacte kV-stappen (380 / 10 / …) tegen boekfiguur checken.</p>
+
+      <h2>1. Leer dit — waarom hoogspanning?</h2>
+      <table>
+        <thead>
+          <tr><th>Feit</th><th>Gevolg</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Vermogen P ≈ U · I (zelfde energie per seconde)</td>
+            <td>Hogere U → lagere I bij gelijk P</td>
+          </tr>
+          <tr>
+            <td>Warmteverlies in kabel groeit met stroom</td>
+            <td>Lage I → minder energie verloren als warmte</td>
+          </tr>
+          <tr>
+            <td>Transport over lange afstand</td>
+            <td>Eerst omhoog transformeren, later omlaag naar huis</td>
+          </tr>
+        </tbody>
+      </table>
+      <p><strong>Typische keten (check boek):</strong> centrale → hoogspanning (~honderden kV) → verdeelstation (~10 kV) → transformatorhuisje → netspanning 230 V.</p>
+
+      <h2>2. Leer dit — netspanning</h2>
+      <table>
+        <thead>
+          <tr><th>Kenmerk</th><th>Waarde / betekenis</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Netspanning (effectief)</td><td>~230 V</td></tr>
+          <tr><td>Soort</td><td>Wisselspanning / wisselstroom</td></tr>
+          <tr><td>Frequentie</td><td>50 Hz (= 50× per seconde van richting)</td></tr>
+        </tbody>
+      </table>
+
+      <h2>3. Leer dit — transformator</h2>
+      <table>
+        <thead>
+          <tr><th>Onderdeel</th><th>Rol</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Primaire spoel (Np, Up)</td><td>Kant van de bron / net</td></tr>
+          <tr><td>Secundaire spoel (Ns, Us)</td><td>Kant van de belasting / huis</td></tr>
+          <tr><td>Weekijzeren kern</td><td>Geleidt het wisselende magneetveld tussen de spoelen</td></tr>
+        </tbody>
+      </table>
+      <table>
+        <thead>
+          <tr><th>Regel</th><th>Formule / gevolg</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Windingen ↔ spanning</td><td>Up : Us = Np : Ns</td></tr>
+          <tr><td>Ns &gt; Np</td><td>Spanning omhoog</td></tr>
+          <tr><td>Ns &lt; Np</td><td>Spanning omlaag</td></tr>
+          <tr><td>Ideale transformator</td><td>Opgenomen P = afgegeven P → Up·Ip = Us·Is</td></tr>
+        </tbody>
+      </table>
+      <p><strong>Modelrekensom:</strong> Np = 1000, Ns = 100, Up = 2300 V → Us = Up · (Ns/Np) = 230 V.</p>
+
+      <h2>4. Mechanisme</h2>
+      <p>Primaire spoel op wisselspanning → wisselend magneetveld in de kern → inductie in secundaire spoel (geen directe draadverbinding nodig). Meer windingen secundair → hogere Us.</p>
+
+      <figure class="figure">
+        <svg viewBox="0 0 460 180" role="img" aria-labelledby="t-tr" xmlns="http://www.w3.org/2000/svg">
+          <title id="t-tr">Transformator primair naar secundair</title>
+          <desc>Twee spoelen om een kern; pijlen tonen Up naar Us via magneetveld.</desc>
+          <defs>
+            <marker id="a1" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#0b5f6b"/></marker>
+            <marker id="a2" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#6b4a0b"/></marker>
+          </defs>
+          <rect width="460" height="180" fill="#f7f4ef"/>
+          <rect x="190" y="35" width="80" height="110" rx="4" fill="#e8e0d4" stroke="#555" stroke-width="2"/>
+          <text x="230" y="95" text-anchor="middle" font-size="11" fill="#555" font-family="sans-serif">kern</text>
+          <rect x="150" y="50" width="36" height="80" rx="3" fill="#d7eef1" stroke="#0b5f6b" stroke-width="2"/>
+          <text x="168" y="95" text-anchor="middle" font-size="10" font-weight="700" fill="#0b5f6b" font-family="sans-serif">Np</text>
+          <rect x="274" y="55" width="28" height="70" rx="3" fill="#f0e6d2" stroke="#6b4a0b" stroke-width="2"/>
+          <text x="288" y="95" text-anchor="middle" font-size="10" font-weight="700" fill="#6b4a0b" font-family="sans-serif">Ns</text>
+          <path d="M40 90 H140" stroke="#0b5f6b" stroke-width="2.5" marker-end="url(#a1)"/>
+          <text x="90" y="78" text-anchor="middle" font-size="11" fill="#0b5f6b" font-family="sans-serif">Up (primair)</text>
+          <path d="M310 90 H410" stroke="#6b4a0b" stroke-width="2.5" marker-end="url(#a2)"/>
+          <text x="360" y="78" text-anchor="middle" font-size="11" fill="#6b4a0b" font-family="sans-serif">Us (secundair)</text>
+          <text x="230" y="165" text-anchor="middle" font-size="11" fill="#555" font-family="sans-serif">Up:Us = Np:Ns · ideaal: Up·Ip = Us·Is</text>
+        </svg>
+        <div class="legend">
+          <span><i class="water"></i> primaire kant</span>
+          <span><i class="wind"></i> secundaire kant</span>
+        </div>
+        <figcaption>Lees af: veld koppelt de spoelen; windingenverhouding bepaalt of U omhoog of omlaag gaat.</figcaption>
+      </figure>
+
+      <section class="quiz" aria-label="Quiz vervoeren">
+        <h3>Quiz</h3>
+        <div class="q" data-answer="2">
+          <p class="prompt">1. Hoogspanning bij transport vooral om…</p>
+          <button type="button" class="opt">De frequentie van 50 Hz te verhogen</button>
+          <button type="button" class="opt">Meer warmte in de kabel te maken</button>
+          <button type="button" class="opt">De stroom te verlagen en verlies te beperken</button>
+          <button type="button" class="opt">De netspanning permanent 10 kV te houden</button>
+          <p class="feedback" aria-live="polite"></p>
+        </div>
+        <div class="q" data-answer="0">
+          <p class="prompt">2. Ns &lt; Np. Wat gebeurt met de spanning?</p>
+          <button type="button" class="opt">Spanning wordt lager</button>
+          <button type="button" class="opt">Spanning wordt hoger</button>
+          <button type="button" class="opt">Spanning blijft altijd gelijk</button>
+          <button type="button" class="opt">Alleen de frequentie verandert</button>
+          <p class="feedback" aria-live="polite"></p>
+        </div>
+        <div class="q" data-answer="3">
+          <p class="prompt">3. Ideale transformator: Up·Ip = …</p>
+          <button type="button" class="opt">Us / Is</button>
+          <button type="button" class="opt">Np · Ns</button>
+          <button type="button" class="opt">230 · 50</button>
+          <button type="button" class="opt">Us · Is</button>
+          <p class="feedback" aria-live="polite"></p>
+        </div>
+        <div class="q" data-answer="1">
+          <p class="prompt">4. Netspanning thuis is ongeveer…</p>
+          <button type="button" class="opt">12 V gelijkspanning</button>
+          <button type="button" class="opt">230 V wisselspanning, 50 Hz</button>
+          <button type="button" class="opt">380 kV gelijkspanning</button>
+          <button type="button" class="opt">10 V bij 0 Hz</button>
+          <p class="feedback" aria-live="polite"></p>
+        </div>
+      </section>
+
+      <div class="nav">
+        <a href="0002-elektrische-energie-opwekken.html">← 0002</a>
+        <a href="0004-elektriciteit-in-huis.html">Volgende: 0004 →</a>
+      </div>
+      <p class="agent-note">Vraag om transformatorsommen met Ip/Is.</p>
+      <aside class="sources">
+        <h2>Bronnen</h2>
+        <ul>
+          <li>Primair: Nova §1.2 Elektrische energie vervoeren</li>
+          <li><a href="https://www.youtube.com/watch?v=fLBUekVWer0">Wetenschapschool: De transformator</a></li>
+        </ul>
+      </aside>
+    </main>
+  </div>
+  <script src="../../assets/quiz.js"></script>
+</body>
+</html>

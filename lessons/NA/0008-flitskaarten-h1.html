@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Flitskaarten NA Nova H1</title>
+  <link rel="stylesheet" href="../../assets/lesson.css" />
+</head>
+<body>
+  <div class="wrap">
+    <header class="site">
+      <p class="eyebrow">Flits · @nova-na-3a · H1 + V2·3·5·7</p>
+      <h1>Flitskaarten Elektriciteit</h1>
+      <p class="lede">Tik de kaart of druk Spatie om te draaien. Pijltjes = vorige/volgende.</p>
+    </header>
+
+    <main>
+      <p class="callout">24 kaarten — begrip ↔ definitie. Shuffle vóór de toets.</p>
+
+      <div
+        id="flashcards"
+        class="flashcards"
+        data-cards='[
+          {"front":"Inductie","back":"Veranderend magneetveld in/bij een spoel wekt spanning op."},
+          {"front":"Inductiespanning","back":"De spanning die door inductie ontstaat (vaak wisselspanning)."},
+          {"front":"Generator / dynamo","back":"Zet bewegingsenergie om in elektrische energie via inductie."},
+          {"front":"Weekijzer","back":"IJzer dat snel magnetiseert en demagnetiseert (kern)."},
+          {"front":"Wisselspanning","back":"Spanning die steeds van richting/polariteit wisselt."},
+          {"front":"E = P · t","back":"Energie = vermogen × tijd (J = W·s of kWh = kW·h)."},
+          {"front":"Geleverd vermogen","back":"Vermogen dat generator/centrale aan het net levert."},
+          {"front":"Opgenomen vermogen","back":"Vermogen dat een apparaat uit het net haalt."},
+          {"front":"Waarom hoogspanning?","back":"Hoge U → lage I bij gelijk P → minder warmteverlies in de kabel."},
+          {"front":"Netspanning NL","back":"Ongeveer 230 V wisselspanning, 50 Hz."},
+          {"front":"Transformatorregel","back":"Up : Us = Np : Ns"},
+          {"front":"Ns > Np","back":"Secundaire spanning wordt hoger."},
+          {"front":"Ideale transformator","back":"Up · Ip = Us · Is (P in = P uit)."},
+          {"front":"Parallelle groep","back":"Over elk apparaat ≈ 230 V; Itot = I1 + I2 + …"},
+          {"front":"P = U · I","back":"Vermogen = spanning × stroomsterkte (W, V, A)."},
+          {"front":"Overbelasting","back":"Te grote totale stroom doordat te veel apparaten aan staan."},
+          {"front":"Kortsluiting","back":"Stroom via een pad met zeer kleine weerstand."},
+          {"front":"Installatieautomaat","back":"Schakelt groep uit bij te grote stroomsterkte."},
+          {"front":"Aardlekschakelaar","back":"Schakelt uit als in- en uitgaande stroom > ~30 mA verschillen."},
+          {"front":"Randaarde","back":"Voert lekstroom via aarde af zodat de aardlek kan afschakelen."},
+          {"front":"Dubbele isolatie","back":"Tweede isolatielaag rond delen onder spanning."},
+          {"front":"Grootheid vs eenheid","back":"Grootheid = wat je meet; eenheid = maat achter het getal."},
+          {"front":"1 mA","back":"10⁻³ A (= 0,001 A)."},
+          {"front":"Afronden × / ÷","back":"Op het minste aantal significante cijfers van de gegevens."}
+        ]'
+      >
+        <button type="button" class="fc-face" data-side="front" aria-label="Draai kaart">…</button>
+        <p class="fc-meta">1 / 24</p>
+        <div class="fc-controls">
+          <button type="button" data-fc="prev">← Vorige</button>
+          <button type="button" data-fc="flip">Draai</button>
+          <button type="button" data-fc="next">Volgende →</button>
+          <button type="button" data-fc="shuffle">Shuffle</button>
+        </div>
+      </div>
+
+      <h2>Scanlijst (zelfde set)</h2>
+      <table>
+        <thead>
+          <tr><th>#</th><th>Voorkant</th><th>Achterkant</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>1</td><td>Inductie</td><td>Veranderend veld → spanning in spoel</td></tr>
+          <tr><td>2</td><td>Inductiespanning</td><td>Opgewekte spanning door inductie</td></tr>
+          <tr><td>3</td><td>Generator</td><td>Beweging → elektrisch</td></tr>
+          <tr><td>4</td><td>Weekijzer</td><td>Snel magnetiseren/demagnetiseren</td></tr>
+          <tr><td>5</td><td>Wisselspanning</td><td>Wisselt van richting</td></tr>
+          <tr><td>6</td><td>E = P·t</td><td>Energie = vermogen × tijd</td></tr>
+          <tr><td>7</td><td>Geleverd P</td><td>Centrale/generator → net</td></tr>
+          <tr><td>8</td><td>Opgenomen P</td><td>Apparaat haalt uit net</td></tr>
+          <tr><td>9</td><td>Hoogspanning</td><td>Lage I → minder verlies</td></tr>
+          <tr><td>10</td><td>Netspanning</td><td>230 V ~, 50 Hz</td></tr>
+          <tr><td>11</td><td>Up:Us = Np:Ns</td><td>Transformatorverhouding</td></tr>
+          <tr><td>12</td><td>Ns &gt; Np</td><td>Us omhoog</td></tr>
+          <tr><td>13</td><td>Ideaal</td><td>Up·Ip = Us·Is</td></tr>
+          <tr><td>14</td><td>Parallel</td><td>U gelijk; I’s optellen</td></tr>
+          <tr><td>15</td><td>P = U·I</td><td>Vermogenformule</td></tr>
+          <tr><td>16</td><td>Overbelasting</td><td>Te veel apparaten → te grote I</td></tr>
+          <tr><td>17</td><td>Kortsluiting</td><td>Lage-weerstand-pad</td></tr>
+          <tr><td>18</td><td>Automaat</td><td>Te grote I → uit</td></tr>
+          <tr><td>19</td><td>Aardlek</td><td>ΔI &gt; ~30 mA → uit</td></tr>
+          <tr><td>20</td><td>Randaarde</td><td>Lek naar aarde</td></tr>
+          <tr><td>21</td><td>Dubbele isolatie</td><td>Tweede isolatielaag</td></tr>
+          <tr><td>22</td><td>Grootheid/eenheid</td><td>Wat vs maat</td></tr>
+          <tr><td>23</td><td>1 mA</td><td>10⁻³ A</td></tr>
+          <tr><td>24</td><td>Afronden ×÷</td><td>Minste significante cijfers</td></tr>
+        </tbody>
+      </table>
+
+      <div class="nav">
+        <a href="0007-toets-mix-nova-h1.html">← Mix</a>
+        <a href="0001-toetsroute-nova-h1.html">Route</a>
+        <a href="../../reference/na-nova-h1-elektriciteit-begrippen.html">Begrippenkaart</a>
+      </div>
+      <p class="agent-note">Wil je extra kaarten (alleen §1.4 of alleen formules)? Zeg het tegen de agent.</p>
+    </main>
+  </div>
+  <script src="../../assets/flashcards.js"></script>
+</body>
+</html>

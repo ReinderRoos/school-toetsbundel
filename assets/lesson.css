@@ -253,6 +253,57 @@ a {
   font-size: 0.9rem;
 }
 
+.flashcards {
+  margin: 1.25rem 0 1.75rem;
+}
+
+.fc-face {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 9rem;
+  padding: 1.25rem 1rem;
+  background: #fff;
+  border: 1px solid var(--line);
+  cursor: pointer;
+  text-align: center;
+  font-size: 1.05rem;
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+.fc-face[data-side="back"] {
+  font-weight: 400;
+  color: var(--ink);
+  background: var(--accent-soft);
+}
+
+.fc-meta {
+  font-family: "IBM Plex Sans", "Segoe UI", sans-serif;
+  font-size: 0.82rem;
+  color: var(--muted);
+  margin: 0.5rem 0 0.75rem;
+}
+
+.fc-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  font-family: "IBM Plex Sans", "Segoe UI", sans-serif;
+}
+
+.fc-controls button {
+  padding: 0.45rem 0.75rem;
+  border: 1px solid var(--line);
+  background: #fff;
+  font: inherit;
+  cursor: pointer;
+}
+
+.fc-controls button:hover {
+  border-color: var(--accent);
+}
+
 @media (max-width: 640px) {
   html {
     font-size: 17px;
