@@ -1,33 +1,29 @@
 # Goal
 
-Maaktoets Lennart SK `@nova-3a` — NOVA 3 VG A release **5.0**: **H1** volledig + **H2 t/m §2.3** (lessen `0001`–`0007` + reference).
+Maaktoets Lennart AK `@de-geo-3vwo` — H3 §1–3 + H5 §1,3 + Basisboek-lijst (B54…B113 Chili; B153–155, B227, B229, B256 India). B03 = B103.
 
 # Done
 
-- [x] NOTES/BOEKEN/MISSION analyse
-- [x] Reference begrippenkaart
-- [x] 0001 toetsroute
-- [x] 0002 §1.1 Materialen
-- [x] 0003 §1.2 Deeltjesmodel
-- [x] 0004 §1.3–1.4 Zuiver/mengsel + scheiden
-- [x] 0005 §2.1 Moleculen & atomen
-- [x] 0006 §2.2–2.3 Reactievergelijkingen + synthese/ontleding
-- [x] 0007 toetsmix
-- [x] RESOURCES / kids / index / TASK
+- [x] Vakresolutie: “NA/Natuurkunde” → De Geo AK
+- [x] NOTES/MISSION/BOEKEN/kids
+- [x] Reference met complete B-tabellen
+- [x] Lessen 0002–0007 verrijkt; 0008 BB-drill; 0001 route
+- [x] index / RESOURCES / TASK
 
 # Next
 
-- [ ] Oefensessie: start `0001` of flitsdrill `0007`
-- [ ] Optioneel: PDF `@nova-3a` droppen → figuren/§ nalopen
-- [ ] Bevestig of school §2.4 verbranding toch meeneemt
+- [ ] Oefensessie: start `0001` of flits `0008`
+- [ ] Optioneel: PDF leerboek + Basisboek droppen
+- [ ] Bevestig B03 = B103; bevestig vak = AK (niet NA)
 
 # Files
 
-- `lessons/SK/0001` … `0007`
-- `reference/sk-nova-h1-h2-23-begrippen.html`
-- `BOEKEN.md`, `NOTES.md`, `MISSION.md`, `RESOURCES.md`, `kids/lennart.md`, `index.html`
+- `lessons/AK/0001` … `0008`
+- `reference/ak-chili-india-begrippen.html`
+- `NOTES.md`, `MISSION.md`, `BOEKEN.md`, `RESOURCES.md`, `kids/lennart.md`, `index.html`
 
 # Open problems
 
-- PDF `@nova-3a` ontbreekt → opdrachtnummers/figuren/exacte boekformulering checken
-- Bevestig of school §2.4 verbranding toch meeneemt (nu buiten scope)
+- PDF `@de-geo-3vwo` (+ Basisboek) ontbreekt
+- Bevestig of gebruiker écht NA bedoelde (onwaarschijnlijk)
+- Bevestig B03 = B103

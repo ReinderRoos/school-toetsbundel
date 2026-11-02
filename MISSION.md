@@ -10,10 +10,10 @@ bijspringen gericht is en niet het boek naschrijven.
 
 - Per toets: korte HTML-lessen die één idee tegelijk uitleggen + oefenen
 - Leerboeken vindbaar via `@alias` in `BOEKEN.md`
-- Lennart kan NOVA `@nova-3a` H1 + H2 t/m §2.3: stofeigenschappen/dichtheid,
-  deeltjesmodel (macro/micro, fasen), zuiver/mengsel + scheiden, molecuulformule,
-  kloppende reactievergelijking, synthese ↔ ontleding
-- (Archief) BIO T2/T1, GR ARGO, MEMO GS, PE H2, DISCO Latijn, AK Chili/India
+- Lennart kan De Geo `@de-geo-3vwo` **H3 §1–3** (Chili klimaat/beeft/brandt) en
+  **H5 §1 + §3** (India verschillen / Booming), inclusief de opgegeven
+  **Basisboek**-rijtjes (B54–B63, B101–B113, B153–B155, B227/B229/B256)
+- (Archief) SK NOVA H1+H2.3, BIO T2/T1, GR ARGO, MEMO GS, PE H2, DISCO Latijn
   blijven beschikbaar
 
 ## Constraints
@@ -22,10 +22,11 @@ bijspringen gericht is en niet het boek naschrijven.
 - Geen illegale leerboek-downloads; PDF’s alleen legaal in `books/`
 - Lessen in het Nederlands; maaktoets School-entrypoint (leerformaat: tabel eerst;
   complete tabellen; geen verhaal als hoofddrager)
-- Actieve SK-scope: `@nova-3a` H1 + H2 t/m §2.3; PDF ontbreekt → check boek
+- Actieve AK-scope: `@de-geo-3vwo` H3§1–3 + H5§1,3 + BB-lijst; PDF ontbreekt → check boek
+- User-label “NA/Natuurkunde” genegeerd t.o.v. De Geo B-scope (tenzij gebruiker corrigeert)
 
 ## Out of scope
 
 - Volledige jaarcursus zonder toets-scope
 - Herschrijven of publiceren van leerboektekst
-- §2.4 Verbrandingsreacties · H3+ tenzij school dit wél toetst
+- H3§4–5 · H5§2 moesson · H5§4–5 tenzij school dit wél toetst

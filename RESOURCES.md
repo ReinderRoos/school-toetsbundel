@@ -135,12 +135,14 @@
 - [nt-grieks: Lidwoorden PDF](https://www.nt-grieks.nl/wp-content/uploads/2022/08/Lidwoorden.pdf)
   Compacte tabel. Use for: second source full paradigm.
 
-### Aardrijkskunde — De Geo (archief)
+### Aardrijkskunde — De Geo (actief)
 
 - [De Geo methode — ThiemeMeulenhoff](https://www.thiememeulenhoff.nl/voortgezet-onderwijs/aardrijkskunde/de-geo)
   Officiële methode-info. Use for: editie, opbouw leerboek/Basisboek.
 - [De Geo Leerboek 3 vwo 10e — inhoudsopgave](https://leren.jojoschool.nl/course/aardrijkskunde/books/de-geo/leerboek-3-vwo-10)
   H-titels en paragrafen. Use for: scope check zonder PDF.
+- [De Geo Basisboek onderbouw 10e — TOC](https://leren.jojoschool.nl/course/aardrijkskunde/books/de-geo/basisboek-onderbouw-10)
+  B-nummers (B54–B256). Use for: complete BB-tabellen in lessen/reference.
 - [Schooltv: Platentektoniek](https://schooltv.nl/video-item/platentektoniek-een-mariengeoloog-legt-uit-hoe-aardlagen-ontstaan-zijn)
   Basismechanisme platen. Use for: H3§2–3 intro.
 - [YouTube: Platentektoniek in Zuid-Amerika (Andes/Nazca)](https://www.youtube.com/watch?v=wZCRGRLlfbg)
