@@ -1,32 +1,33 @@
 # Goal
 
-Maaktoets Lennart BIO `@bvj-23a` — **Thema 2 Voeding en vertering**, Basisstof **1 · 2 · 3 · 6** (lessen `0007`–`0012` + reference).
+Maaktoets Lennart SK `@nova-3a` — NOVA 3 VG A release **5.0**: **H1** volledig + **H2 t/m §2.3** (lessen `0001`–`0007` + reference).
 
 # Done
 
-- [x] NOTES/BOEKEN/MISSION analyse T2
-- [x] Reference begrippenkaart T2
-- [x] 0007 toetsroute
-- [x] 0008 BS1 voedingsstoffen
-- [x] 0009 BS2 verteringsstelsel
-- [x] 0010 BS3 organen
-- [x] 0011 BS6 zoogdieren
-- [x] 0012 toetsmix
+- [x] NOTES/BOEKEN/MISSION analyse
+- [x] Reference begrippenkaart
+- [x] 0001 toetsroute
+- [x] 0002 §1.1 Materialen
+- [x] 0003 §1.2 Deeltjesmodel
+- [x] 0004 §1.3–1.4 Zuiver/mengsel + scheiden
+- [x] 0005 §2.1 Moleculen & atomen
+- [x] 0006 §2.2–2.3 Reactievergelijkingen + synthese/ontleding
+- [x] 0007 toetsmix
 - [x] RESOURCES / kids / index / TASK
 
 # Next
 
-- [ ] Oefensessie: start `0007` of flitsdrill `0012`
-- [ ] Optioneel: PDF `@bvj-23a` droppen → figuren/§ nalopen
-- [ ] Bevestig of school BS4/BS5 toch meeneemt
+- [ ] Oefensessie: start `0001` of flitsdrill `0007`
+- [ ] Optioneel: PDF `@nova-3a` droppen → figuren/§ nalopen
+- [ ] Bevestig of school §2.4 verbranding toch meeneemt
 
 # Files
 
-- `lessons/BIO/0007` … `0012`
-- `reference/bio-bvj-t2-bs1236-begrippen.html`
+- `lessons/SK/0001` … `0007`
+- `reference/sk-nova-h1-h2-23-begrippen.html`
 - `BOEKEN.md`, `NOTES.md`, `MISSION.md`, `RESOURCES.md`, `kids/lennart.md`, `index.html`
 
 # Open problems
 
-- PDF `@bvj-23a` ontbreekt → figuurnummers/exacte formules checken tegen boek 8.2
-- Bevestig of school BS4/BS5 toch meeneemt (nu buiten scope)
+- PDF `@nova-3a` ontbreekt → opdrachtnummers/figuren/exacte boekformulering checken
+- Bevestig of school §2.4 verbranding toch meeneemt (nu buiten scope)

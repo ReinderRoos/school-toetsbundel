@@ -2,7 +2,26 @@
 
 ## Knowledge
 
-### Biologie — BVJ Thema 2 BS1 · 2 · 3 · 6 (actief)
+### Scheikunde — NOVA H1 + H2 t/m §2.3 (actief)
+
+- [JoJoSchool: Nova Leeropdrachtenboek A 3 VWO|GYMNASIUM 5.0](https://leren.jojoschool.nl/course/scheikunde/books/nova/leeropdrachtenboek-a-3-vwo-gymnasium-50)
+  TOC H1–H3 + ISBN 9789402068801. Use for: §-titels zonder PDF.
+- [Malmberg: Nova scheikunde onderbouw](https://malmberg.nl/voortgezet-onderwijs/methodes/exacte-vakken/scheikunde/nova-scheikunde-onderbouw)
+  Methode + bladerboeken. Use for: editie/scope.
+- [Malmberg: release Nova 3 havo/vwo/gym](https://malmberg.nl/voortgezet-onderwijs/ondersteuning-inspiratie/ontwikkelingen/releases/release-nova-scheikunde-3-havovwogym)
+  Release 5.0.x notes. Use for: editie-check.
+- [Quizlet: NOVA VG3 H2 chemische reacties](https://quizlet.com/nl/631351704/nova-scheikunde-vwogymnasium-3-hoofdstuk-2-chemische-reacties-flash-cards/)
+  Begrippen H2. Use for: les 0005–0006 + reference.
+- [Wikiwijs: NOVA scheikunde havo/vwo 3](https://maken.wikiwijs.nl/218567/NOVA_scheikunde_havo_vwo_3)
+  Video’s §1.1–2.4. Use for: lesbronnen (stop vóór verbranding).
+- [Video: micro en macro](https://youtu.be/Ny8sIh_v6jg) — les 0003
+- [Video: zuivere stoffen en mengsels](https://youtu.be/BH8K98ex0xc) — les 0004
+- [Video: scheidingsmethoden](https://www.youtube.com/watch?v=sSY0L296N-Q) — les 0004
+- [Video: molecuulformules](https://youtu.be/vpBIPswpeYU) — les 0005
+- [Video: reactievergelijking opstellen](https://youtu.be/3Rkb0SRkB_k) — les 0006
+- [Video: ontleden](https://youtu.be/eIpeX46xG4Y) — les 0006
+
+### Biologie — BVJ Thema 2 BS1 · 2 · 3 · 6 (archief)
 
 - [JoJoSchool: BVJ Deel A 2|3 VWO|GYMNASIUM 8.2](https://leren.jojoschool.nl/course/biologie/books/biologie-voor-jou/deel-a-23-vwogymnasium-82)
   TOC Thema 1–3 + ISBN 9789402072808. Use for: BS-titels zonder PDF.

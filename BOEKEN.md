@@ -91,6 +91,25 @@ PDF’s horen in `books/<kind>/`. Status: `aanwezig` | `ontbreekt` | `alleen-met
 - **Uitgever:** https://malmberg.nl/voortgezet-onderwijs/bladerboeken-vo
 - **Notities:** PDF ontbreekt. Scope = 5.1-nummering. Oudere MeMo-edities: H2§4 kan “bezetting NL” zijn (nu H3§4) — bevestig schooleditie.
 
+### nova-3a
+
+- **Alias:** `@nova-3a`
+- **Titel:** Nova Scheikunde — Leeropdrachtenboek A · 3 vwo/gymnasium
+- **Uitgever:** Malmberg
+- **Editie / release:** 5e editie · release **5.0**
+- **ISBN:** 9789402068801 (Leeropdrachtenboek A 3 VG); havo-A 9789402068795
+- **Kind:** Lennart
+- **Vak:** SK / Scheikunde
+- **Lokaal pad:** `books/lennart/nova-3a-5.0.pdf` (nog plaatsen)
+- **Status:** ontbreekt
+- **Inhoud relevant voor actieve toets:**
+  - **H1 Materialen en stoffen** — §1 Materialen · §2 Het deeltjesmodel · §3 Zuivere stoffen en mengsels · §4 Scheidingsmethoden
+  - **H2 Chemische reacties** — §1 Moleculen en atomen · §2 Reactievergelijkingen · §3 Chemische synthese en ontleding
+  - Buiten scope (tenzij school meeneemt): §2.4 Verbrandingsreacties · H3+
+- **TOC-bron:** JoJoSchool Leeropdrachtenboek A 3 VWO|GYMNASIUM 5.0; Malmberg Nova onderbouw
+- **Uitgever:** https://malmberg.nl/voortgezet-onderwijs/methodes/exacte-vakken/scheikunde/nova-scheikunde-onderbouw
+- **Notities:** PDF ontbreekt. Scope = H1 + H2 t/m §2.3. Cijfers/opdrachtnummers/figuren tegen boek 5.0 checken.
+
 ### bvj-23a
 
 - **Alias:** `@bvj-23a`
