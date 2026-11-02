@@ -7,6 +7,42 @@
 - Editie De Geo 3VWO: **10.1**
 - ARGO Grieks hulpboek 1: **2e editie (2022)**
 - DISCO 1 Latijn: **4e herziene druk (2012)**, Primavera
+- Nova Scheikunde 3 VG A: **release 5.0** (ISBN 9789402068801)
+
+## Analyse — Lennart SK toets NOVA H1 + H2 t/m §2.3 (zonder PDF)
+
+Bronnen: JoJoSchool TOC Leeropdrachtenboek A 3 VWO|GYMNASIUM 5.0; Malmberg Nova onderbouw; Quizlet NOVA VG3 H2; Wikiwijs NOVA 3 video’s; NOVA uitwerkingen-TOC (zelfde §-structuur).
+PDF status: **ontbreekt** — `books/lennart/nova-3a-5.0.pdf` plaatsen.
+GO zonder PDF: §-titels + complete must-know tabellen uit ≥2 publieke bronnen; cijfers/opdrachtnummers → check boek.
+
+### Scope
+
+| § | Titel (5.0 VG) | Kern |
+|---|----------------|------|
+| 1.1 | Materialen | Stofeigenschappen kiezen toepassing; prijs ≠ eigenschap; ρ = m/V |
+| 1.2 | Het deeltjesmodel | 5 uitgangspunten; macro↔micro; vast/vloeibaar/gas; faseovergangen; smelt/kook plat |
+| 1.3 | Zuivere stoffen en mengsels | 1 vs >1 molecuulsoort; homo/hetero; suspensie/emulsie/rook/nevel; smelt-/kookpunt vs traject; massa%/volume% |
+| 1.4 | Scheidingsmethoden | Filtreren, bezinken, centrifugeren, indampen, destilleren, adsorberen, extraheren (+ chromatografie); principe = verschil in eigenschap |
+| 2.1 | Moleculen en atomen | Atoom = bouwsteen molecuul; element vs verbinding; index; molecuulformule; diatomisch H₂ N₂ O₂ F₂ Cl₂ Br₂ I₂ |
+| 2.2 | Reactievergelijkingen | Reactie = nieuwe stoffen; schema → vergelijking; coëfficiënt; fase (s)(l)(g)(aq); kloppend (atoombehoud) |
+| 2.3 | Chemische synthese en ontleding | Synthese: meer beginstoffen → 1 product; ontleding: 1 → meer; thermolyse / elektrolyse / fotolyse |
+
+### Buiten scope (tenzij school meeneemt)
+
+- §2.4 Verbrandingsreacties
+- H3 Bouw van stoffen e.v.
+
+### Toetsverwachting
+
+- Complete tabellen: fasen macro/micro · mengseltypen · scheidingsmethode↔principe · 7 diatomische · synthese↔ontleding
+- Dichtheid / % rekenen
+- Reactievergelijking kloppend maken
+- Macro-micro redeneren (waarom plat bij smelten; waarom mengsel traject)
+
+### Open
+
+- PDF droppen → figuren/exacte boekformulering
+- Bevestig of school §2.4 toch meeneemt
 
 ## Analyse — Lennart LA toets DISCO H13–H15 (zonder PDF)
 

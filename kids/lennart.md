@@ -2,8 +2,9 @@
 
 - **Niveau:** 3 gymnasium (vwo-onderbouw)
 - **Voorkeur:** concreet eerst, daarna begrip; visuals helpen; memoriseerbare stof = tabel eerst; paradigma’s altijd ev+mv
-- **Actieve toets:** BIO — BVJ `@bvj-23a` — Thema 2 BS1 · 2 · 3 · 6 (voeding & vertering)
-- **Lessen BIO T2:** `lessons/BIO/0007` … `0012` + `reference/bio-bvj-t2-bs1236-begrippen.html`
+- **Actieve toets:** SK — NOVA `@nova-3a` — H1 + H2 t/m §2.3 (geen §2.4 verbranding)
+- **Lessen SK:** `lessons/SK/0001` … `0007` + `reference/sk-nova-h1-h2-23-begrippen.html`
+- **Eerdere bundel BIO T2:** `lessons/BIO/0007` … `0012` + `reference/bio-bvj-t2-bs1236-begrippen.html`
 - **Eerdere bundel BIO T1:** `lessons/BIO/0001` … `0006` + `reference/bio-bvj-t1-bs1236-begrippen.html`
 - **Eerdere bundel GR:** `lessons/Grieks/0008` … `0013` + `reference/grieks-argo-11-14-begrippen.html`
 - **Eerdere bundel GS:** `lessons/GS/0001` … `0005` + `reference/gs-memo-12-13-24-begrippen.html`
