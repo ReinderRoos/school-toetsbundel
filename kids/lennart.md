@@ -2,8 +2,9 @@
 
 - **Niveau:** 3 gymnasium (vwo-onderbouw)
 - **Voorkeur:** concreet eerst, daarna begrip; visuals helpen; memoriseerbare stof = tabel eerst; paradigma’s altijd ev+mv
-- **Actieve toets:** AK — De Geo `@de-geo-3vwo` — H3 §1–3 + H5 §1,3 + Basisboek-lijst
-- **Lessen AK:** `lessons/AK/0001` … `0008` + `reference/ak-chili-india-begrippen.html`
+- **Actieve toets:** NA — Nova `@nova-na-3a` — H1 Elektriciteit §1–4 + Vaardigheden 2·3·5·7 + flitskaarten
+- **Lessen NA:** `lessons/NA/0001` … `0008` + `reference/na-nova-h1-elektriciteit-begrippen.html`
+- **Eerdere bundel AK:** `lessons/AK/0001` … `0008` + `reference/ak-chili-india-begrippen.html`
 - **Eerdere bundel SK:** `lessons/SK/0001` … `0007` + `reference/sk-nova-h1-h2-23-begrippen.html`
 - **Eerdere bundel BIO T2:** `lessons/BIO/0007` … `0012` + `reference/bio-bvj-t2-bs1236-begrippen.html`
 - **Eerdere bundel BIO T1:** `lessons/BIO/0001` … `0006` + `reference/bio-bvj-t1-bs1236-begrippen.html`

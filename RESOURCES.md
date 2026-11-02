@@ -2,7 +2,20 @@
 
 ## Knowledge
 
-### Scheikunde — NOVA H1 + H2 t/m §2.3 (actief)
+### Natuurkunde — Nova H1 Elektriciteit + V2·3·5·7 (actief)
+
+- [JoJoSchool: Nova NA Leeropdrachtenboek A 3 vwo|gymnasium 5.1](https://leren.jojoschool.nl/course/natuurkunde/books/nova-natuurkunde/leeropdrachtenboek-a-3-vwogymnasium-51)
+  TOC H1–H3 + Vaardigheden; ISBN 9789402073140. Use for: §-titels zonder PDF.
+- [Dedicon: Nova NA 5.1 MAX 3 vg A](https://educatief.dedicon.nl/p240053.html)
+  Metadata ISBN/release. Use for: boekidentiteit.
+- [Wetenschapschool: De transformator](https://www.youtube.com/watch?v=fLBUekVWer0) — les 0003
+- [YouTube: aardlekschakelaar technische werking](https://www.youtube.com/watch?v=TgpPwt5HwH4) — les 0005
+- [LessonUp: H1.4 Elektriciteit en veiligheid](https://www.lessonup.com/nl/lesson/DCFKsMr5gy7w3mtr3) — les 0005
+- [Wikiwijs: Vaardighedenblad onderbouw NA](https://maken.wikiwijs.nl/159326/Vaardigheden_en_formule_blad_onderbouw_Natuurkunde) — les 0006
+- [Knowunity: Nova H1 §1–3 overzicht](https://knowunity.nl/knows/natuurkunde-samenvatting-nova-h1-paragraaf-123-06c35f62-589b-4734-9ccb-2594e25f6376)
+  Publieke samenvatting. Use for: keten/transport-check (niet kopiëren).
+
+### Scheikunde — NOVA H1 + H2 t/m §2.3 (archief)
 
 - [JoJoSchool: Nova Leeropdrachtenboek A 3 VWO|GYMNASIUM 5.0](https://leren.jojoschool.nl/course/scheikunde/books/nova/leeropdrachtenboek-a-3-vwo-gymnasium-50)
   TOC H1–H3 + ISBN 9789402068801. Use for: §-titels zonder PDF.
