@@ -54,8 +54,11 @@ PDF’s horen in `books/<kind>/`. Status: `aanwezig` | `ontbreekt` | `alleen-met
 - **Inhoud (10e) relevant voor eerdere toets:**
   - H3 Chili: het land waar de aarde ophoudt — §1 Klimaat · §2 Chili beeft · §3 Chili brandt
   - H5 Verschillen in India — §1 India: een land vol verschillen · §3 Booming India
+  - **Basisboek (10e) toetslijst:** B54 · B55 · B58 · B63 · B101 · B103 · B104 · B106 · B112 · B113 · B153 · B154 · B155 · B227 · B229 · B256
+- **Basisboek pad:** `books/lennart/de-geo-basisboek-10.pdf` (apart naslagwerk; ISBN 9789006185294)
+- **TOC-bron:** JoJoSchool Leerboek 3 vwo 10e; JoJoSchool Basisboek onderbouw 10e
 - **Uitgever:** https://www.thiememeulenhoff.nl/voortgezet-onderwijs/aardrijkskunde/de-geo
-- **Notities:** Basisboek is apart naslagwerk (B-nummers). Plaats legaal verkregen PDF hier.
+- **Notities:** PDF leerboek + Basisboek ontbreken. `B03` in opdracht → B103 Soorten vulkanen.
 
 ### pe-3vwo
 

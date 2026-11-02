@@ -105,29 +105,58 @@ PDF status: **ontbreekt** — `books/lennart/argo-1-hulpboek.pdf` plaatsen.
 - PDF ARGO droppen → grammatica-nummers + idioomlijsten nalopen
 - Vragen of school imperfectum al meeneemt op deze toets
 
-## Analyse — Lennart AK toets (zonder PDF)
+## Analyse — Lennart AK toets De Geo H3§1–3 + H5§1,3 + Basisboek (zonder PDF)
 
-Bron voor H-titels: De Geo leerboek 3 vwo 10e inhoudsopgave (JojoSchool / uitgever).
-PDF status: **ontbreekt** — gebruiker moet `books/lennart/de-geo-3vwo-leerboek.pdf` plaatsen.
+Bronnen: JoJoSchool De Geo Leerboek 3 vwo 10e TOC; JoJoSchool Basisboek onderbouw 10e (ISBN 9789006185294); LessonUp Chili/India; StudyGo Chili-samenvatting.
+PDF status: **ontbreekt** — `books/lennart/de-geo-3vwo-leerboek.pdf` (+ Basisboek) plaatsen.
+GO zonder PDF: §-titels + complete BB-must-know uit ≥2 publieke bronnen; cijfers/figuren → check boek.
+**Query-note:** user schreef “NA | Natuurkunde”; scope (H3 Chili / H5 India + B-nrs) = **AK `@de-geo-3vwo`**. `B03` gelezen als **B103** (Soorten vulkanen; past in reeks B101…B104).
 
 ### H3 Chili (§1–3)
 
 | § | Titel | Kernmechanisme |
 |---|--------|----------------|
-| 1 | Klimaat | Breedte + Humboldtstroom + Andes (stuw/regenschaduw) → N droog, Z natter; hooggebergteklimaat |
-| 2 | Chili beeft | Convergentie Nazca ↔ Zuid-Amerika → subductie → zware aardbevingen, trog, seismisch gat |
-| 3 | Chili brandt | Zelfde subductie → magma → stratovulkanen / Andes als plooiingsgebergte |
+| 1 | Klimaat | Breedte + Humboldt (water Z→N) + Andes (stuw/regenschaduw) → N droog, Z natter |
+| 2 | Chili beeft | Convergentie Nazca ↔ Z-Am → subductie → aardbevingen, trog, seismisch gat |
+| 3 | Chili brandt | Zelfde subductie → magma → stratovulkanen / Andes = plooiingsgebergte |
 
-### H5 India (§1, §3 — niet §2 moesson / §4 verstedelijking)
+### H5 India (§1 + §3 — niet §2 moesson / §4 verstedelijking)
 
 | § | Titel | Kernmechanisme |
 |---|--------|----------------|
-| 1 | Land vol verschillen | Regionale, sociale, economische contrasten; dualiteit |
-| 3 | Booming India | Opkomend land, SEZ, outsourcing/IT, duale economie, braindrain/braingain |
+| 1 | Land vol verschillen | Fysisch/demo/economisch/sociaal contrast + verklaren; demografie-diagrammen |
+| 3 | Booming India | Opkomend land, HDI, SEZ, outsourcing/IT, duale economie, gevolgen globalisering |
 
-## Open
+### Basisboek (toetslijst — compleet)
 
-- PDF De Geo droppen → lessen tegen boek nalopen
+| B | Titel (10e) | Cluster |
+|---|-------------|---------|
+| B54 | Aanlandige en aflandige winden | H3§1 |
+| B55 | Zeestromen | H3§1 |
+| B58 | Stuwingsregen | H3§1 |
+| B63 | Wet van Buys Ballot | H3§1 |
+| B101 | Bewegingsrichtingen van platen | H3§2 |
+| B103 | Soorten vulkanen *(user: B03)* | H3§3 |
+| B104 | Hotspots | H3§3 contrast |
+| B106 | Aardbeving | H3§2 |
+| B112 | Plooiingsgebergten | H3§3 |
+| B113 | Breukgebergten | H3§3 contrast |
+| B153 | Demografische druk | H5§1 |
+| B154 | Leeftijdopbouw | H5§1 |
+| B155 | Soorten bevolkingsdiagrammen | H5§1 |
+| B227 | Human development index (HDI) | H5§3 |
+| B229 | Opkomende landen | H5§3 |
+| B256 | Gevolgen van globalisering | H5§3 |
+
+### Buiten scope
+
+- H3§4–5 (Chili in beeld / verstedelijking ZA)
+- H5§2 Moesson · H5§4 Verstedelijking · H5§5 Maldiven
+
+### Open
+
+- PDF De Geo + Basisboek droppen → figuren/formulering nalopen
+- Bevestig B03 = B103; bevestig vak = AK (niet NA)
 
 ## Feedback 2026-10-26 — §3.1 te dun + diagramfouten
 
