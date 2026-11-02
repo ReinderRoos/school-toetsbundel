@@ -304,11 +304,241 @@ a {
   border-color: var(--accent);
 }
 
+/* —— Vakkenhub (index) —— */
+.hub {
+  max-width: none;
+}
+
+.hub-back {
+  display: inline-block;
+  font-family: "IBM Plex Sans", "Segoe UI", sans-serif;
+  font-size: 0.88rem;
+  margin: 0 0 0.75rem;
+}
+
+.vak-group {
+  margin: 0 0 1.75rem;
+}
+
+.vak-group > h3 {
+  font-family: "IBM Plex Sans", "Segoe UI", sans-serif;
+  font-size: 0.78rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 0 0 0.55rem;
+  font-weight: 600;
+}
+
+.subject-grid,
+.lesson-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(14.5rem, 1fr));
+  gap: 0.85rem;
+  margin: 0.35rem 0 0;
+  max-width: none;
+  padding: 0;
+  list-style: none;
+}
+
+.subject-card,
+.lesson-card {
+  --vak: var(--accent);
+  --vak-soft: var(--accent-soft);
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  min-height: 6.5rem;
+  padding: 1rem 1.05rem 1rem 1rem;
+  background: var(--vak-soft);
+  border: 1px solid color-mix(in srgb, var(--vak) 28%, var(--line));
+  border-left: 5px solid var(--vak);
+  border-radius: 6px;
+  text-decoration: none;
+  color: inherit;
+  transition: border-color 0.12s ease, box-shadow 0.12s ease;
+}
+
+.subject-card:hover,
+.lesson-card:hover,
+.subject-card:focus-visible,
+.lesson-card:focus-visible {
+  border-color: var(--vak);
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--vak) 35%, transparent);
+  outline: none;
+}
+
+.vak-na {
+  --vak: #0b5f6b;
+  --vak-soft: #d4eef1;
+}
+.vak-sk {
+  --vak: #8a5208;
+  --vak-soft: #f5e6c8;
+}
+.vak-bio {
+  --vak: #1b6b3a;
+  --vak-soft: #dcefe3;
+}
+.vak-ak {
+  --vak: #1e4d7b;
+  --vak-soft: #d9e6f2;
+}
+.vak-gs {
+  --vak: #7a2e3a;
+  --vak-soft: #f0dde1;
+}
+.vak-ec {
+  --vak: #4a6320;
+  --vak-soft: #e5edd4;
+}
+.vak-gr {
+  --vak: #3a3d7a;
+  --vak-soft: #e0e1f0;
+}
+.vak-la {
+  --vak: #8b3d18;
+  --vak-soft: #f2e0d4;
+}
+
+.subject-card .sc-code,
+.lesson-card .lc-num {
+  font-family: "IBM Plex Sans", "Segoe UI", sans-serif;
+  font-size: 0.72rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--vak);
+  margin: 0;
+}
+
+.subject-card .sc-title,
+.lesson-card .lc-title {
+  font-size: 1.05rem;
+  font-weight: 600;
+  line-height: 1.25;
+  margin: 0;
+  color: var(--ink);
+}
+
+.subject-card .sc-stof,
+.lesson-card .lc-stof {
+  font-family: "IBM Plex Sans", "Segoe UI", sans-serif;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--vak);
+  margin: 0;
+}
+
+.subject-card .sc-desc,
+.lesson-card .lc-desc {
+  font-family: "IBM Plex Sans", "Segoe UI", sans-serif;
+  font-size: 0.88rem;
+  color: var(--muted);
+  margin: 0;
+  max-width: none;
+  line-height: 1.35;
+}
+
+.subject-card .sc-meta {
+  font-family: "IBM Plex Sans", "Segoe UI", sans-serif;
+  font-size: 0.75rem;
+  color: var(--muted);
+  margin: 0.15rem 0 0;
+}
+
+.bundle {
+  scroll-margin-top: 1rem;
+  padding-top: 0.25rem;
+  margin-bottom: 2.25rem;
+  border-top: 1px solid var(--line);
+}
+
+.bundle.vak-na,
+.bundle.vak-sk,
+.bundle.vak-bio,
+.bundle.vak-ak,
+.bundle.vak-gs,
+.bundle.vak-ec,
+.bundle.vak-gr,
+.bundle.vak-la {
+  border-top-color: color-mix(in srgb, var(--vak) 40%, var(--line));
+}
+
+.bundle:first-of-type {
+  border-top: none;
+}
+
+.bundle-head {
+  margin: 1.5rem 0 0.35rem;
+}
+
+.bundle-head h2 {
+  margin: 0 0 0.35rem;
+  color: var(--vak, var(--ink));
+}
+
+.bundle-head p {
+  margin: 0;
+  color: var(--muted);
+  max-width: 40rem;
+}
+
+.bundle-ref {
+  font-family: "IBM Plex Sans", "Segoe UI", sans-serif;
+  font-size: 0.9rem;
+  margin: 0.25rem 0 0.85rem;
+}
+
+.bundle-ref a {
+  color: var(--vak, var(--accent));
+}
+
+.hub-cluster {
+  margin: 2.5rem 0 0.5rem;
+}
+
+.hub-cluster > h2 {
+  margin: 0 0 0.35rem;
+  font-size: 1.15rem;
+}
+
+.hub-cluster > p {
+  margin: 0 0 1rem;
+  color: var(--muted);
+  font-family: "IBM Plex Sans", "Segoe UI", sans-serif;
+  font-size: 0.9rem;
+}
+
+@media (min-width: 900px) {
+  .wrap:has(.hub) {
+    max-width: 58rem;
+  }
+
+  .subject-grid {
+    grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+  }
+
+  .lesson-grid {
+    grid-template-columns: repeat(auto-fill, minmax(15.5rem, 1fr));
+  }
+}
+
 @media (max-width: 640px) {
   html {
     font-size: 17px;
   }
   h1 {
     font-size: 1.55rem;
+  }
+
+  .subject-grid,
+  .lesson-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .subject-card,
+  .lesson-card {
+    min-height: 5.5rem;
+    padding: 1.1rem 1.15rem 1.1rem 1rem;
   }
 }

@@ -11,121 +11,551 @@
     <header class="site">
       <p class="eyebrow">Lennart · 3 gymnasium</p>
       <h1>Toetsbundels</h1>
-      <p class="lede">Start bij de actieve toets. Quizzes werken in de browser — geen installatie.</p>
+      <p class="lede">Kies een vak, open een leskaart. Quizzes werken in de browser — geen installatie.</p>
     </header>
 
-    <main>
-      <h2>Actief — NA · Nova H1 Elektriciteit §1–4 + Vaardigheden 2·3·5·7</h2>
-      <p>Boek: <code>@nova-na-3a</code> (3 vwo/gym A, release 5.1). Opwekken → vervoeren → huis → veiligheid + rekenvaardigheden + flitskaarten.</p>
-      <ol class="toc">
-        <li><a href="lessons/NA/0001-toetsroute-nova-h1.html">0001 · Toetsroute</a></li>
-        <li><a href="lessons/NA/0002-elektrische-energie-opwekken.html">0002 · §1.1 Opwekken</a></li>
-        <li><a href="lessons/NA/0003-elektrische-energie-vervoeren.html">0003 · §1.2 Vervoeren</a></li>
-        <li><a href="lessons/NA/0004-elektriciteit-in-huis.html">0004 · §1.3 In huis</a></li>
-        <li><a href="lessons/NA/0005-elektriciteit-veiligheid.html">0005 · §1.4 Veiligheid</a></li>
-        <li><a href="lessons/NA/0006-vaardigheden-2-3-5-7.html">0006 · Vaardigheden 2·3·5·7</a></li>
-        <li><a href="lessons/NA/0007-toets-mix-nova-h1.html">0007 · Toetsmix</a></li>
-        <li><a href="lessons/NA/0008-flitskaarten-h1.html">0008 · Flitskaarten</a></li>
-      </ol>
-      <p><a href="reference/na-nova-h1-elektriciteit-begrippen.html">Begrippenkaart NA Nova H1</a> (printbaar)</p>
+    <main class="hub">
+      <h2 id="vakken">Vakken</h2>
 
-      <h2>Archief — AK · De Geo Chili H3§1–3 + India H5§1,3 + Basisboek</h2>
-      <p>Boek: <code>@de-geo-3vwo</code> (3 vwo 10.1) + Basisboek 10e. Klimaat/beeft/brandt, India-verschillen/booming, B54–B256-lijst.</p>
-      <ol class="toc">
-        <li><a href="lessons/AK/0001-toetsroute-chili-india.html">0001 · Toetsroute</a></li>
-        <li><a href="lessons/AK/0002-chili-klimaat.html">0002 · Chili klimaat</a></li>
-        <li><a href="lessons/AK/0003-chili-beeft.html">0003 · Chili beeft</a></li>
-        <li><a href="lessons/AK/0004-chili-brandt.html">0004 · Chili brandt</a></li>
-        <li><a href="lessons/AK/0005-india-verschillen.html">0005 · India verschillen</a></li>
-        <li><a href="lessons/AK/0006-booming-india.html">0006 · Booming India</a></li>
-        <li><a href="lessons/AK/0007-toets-mix-chili-india.html">0007 · Toetsmix</a></li>
-        <li><a href="lessons/AK/0008-basisboek-chili-india.html">0008 · Basisboek-drill</a></li>
-      </ol>
-      <p><a href="reference/ak-chili-india-begrippen.html">Begrippen + Basisboek Chili/India</a> (printbaar)</p>
+      <div class="vak-group" aria-labelledby="grp-exact">
+        <h3 id="grp-exact">Exacte vakken</h3>
+        <div class="subject-grid" role="navigation" aria-label="Exacte vakken">
+          <a class="subject-card vak-na" href="#na">
+            <p class="sc-code">NA</p>
+            <p class="sc-title">Natuurkunde</p>
+            <p class="sc-stof">Nova H1 §1–4 + V2·3·5·7</p>
+            <p class="sc-desc">Elektriciteit: opwekken → vervoeren → huis → veiligheid.</p>
+            <p class="sc-meta">@nova-na-3a · 8 lessen</p>
+          </a>
+          <a class="subject-card vak-sk" href="#sk">
+            <p class="sc-code">SK</p>
+            <p class="sc-title">Scheikunde</p>
+            <p class="sc-stof">NOVA H1 + H2 t/m §2.3</p>
+            <p class="sc-desc">Materialen tot synthese/ontleding — geen §2.4.</p>
+            <p class="sc-meta">@nova-3a · 7 lessen</p>
+          </a>
+          <a class="subject-card vak-bio" href="#bio-t1">
+            <p class="sc-code">BIO</p>
+            <p class="sc-title">Biologie · Thema 1</p>
+            <p class="sc-stof">BVJ T1 BS1 · 2 · 3 · 6</p>
+            <p class="sc-desc">Stofwisseling, verbranding, ademhaling.</p>
+            <p class="sc-meta">@bvj-23a · 6 lessen</p>
+          </a>
+          <a class="subject-card vak-bio" href="#bio-t2">
+            <p class="sc-code">BIO</p>
+            <p class="sc-title">Biologie · Thema 2</p>
+            <p class="sc-stof">BVJ T2 BS1 · 2 · 3 · 6</p>
+            <p class="sc-desc">Voeding, vertering, organen, zoogdieren.</p>
+            <p class="sc-meta">@bvj-23a · 6 lessen</p>
+          </a>
+        </div>
+      </div>
 
-      <h2>Archief — Scheikunde · NOVA H1 + H2 t/m §2.3</h2>
-      <p>Boek: <code>@nova-3a</code> (3 vwo/gym A, release 5.0). Materialen t/m synthese/ontleding. Geen §2.4 verbranding.</p>
-      <ol class="toc">
-        <li><a href="lessons/SK/0001-toetsroute-nova-h1-h2-23.html">0001 · Toetsroute</a></li>
-        <li><a href="lessons/SK/0002-materialen.html">0002 · §1.1 Materialen</a></li>
-        <li><a href="lessons/SK/0003-deeltjesmodel.html">0003 · §1.2 Deeltjesmodel</a></li>
-        <li><a href="lessons/SK/0004-zuiver-mengsel-scheiden.html">0004 · §1.3–1.4 Zuiver &amp; scheiden</a></li>
-        <li><a href="lessons/SK/0005-moleculen-atomen.html">0005 · §2.1 Moleculen &amp; atomen</a></li>
-        <li><a href="lessons/SK/0006-reacties-synthese-ontleding.html">0006 · §2.2–2.3 Reacties</a></li>
-        <li><a href="lessons/SK/0007-toets-mix-nova-h1-h2-23.html">0007 · Toetsmix</a></li>
-      </ol>
-      <p><a href="reference/sk-nova-h1-h2-23-begrippen.html">Begrippenkaart SK NOVA H1–H2.3</a> (printbaar)</p>
+      <div class="vak-group" aria-labelledby="grp-mm">
+        <h3 id="grp-mm">Mens &amp; maatschappij</h3>
+        <div class="subject-grid" role="navigation" aria-label="Mens en maatschappij">
+          <a class="subject-card vak-ak" href="#ak">
+            <p class="sc-code">AK</p>
+            <p class="sc-title">Aardrijkskunde</p>
+            <p class="sc-stof">De Geo Chili H3§1–3 · India H5§1,3</p>
+            <p class="sc-desc">Klimaat, aardbevingen, branden; India-verschillen &amp; booming.</p>
+            <p class="sc-meta">@de-geo-3vwo · 8 lessen</p>
+          </a>
+          <a class="subject-card vak-gs" href="#gs">
+            <p class="sc-code">GS</p>
+            <p class="sc-title">Geschiedenis</p>
+            <p class="sc-stof">MEMO §1.2 · §1.3 · §2.4</p>
+            <p class="sc-desc">Spanningen, WOI, economische wereldcrisis.</p>
+            <p class="sc-meta">@memo-3vwo · 5 lessen</p>
+          </a>
+          <a class="subject-card vak-ec" href="#ec">
+            <p class="sc-code">EC</p>
+            <p class="sc-title">Economie</p>
+            <p class="sc-stof">PE H2 §1–4</p>
+            <p class="sc-desc">Vraag, aanbod, evenwicht, marktvormen.</p>
+            <p class="sc-meta">@pe-3vwo · 6 lessen</p>
+          </a>
+        </div>
+      </div>
 
-      <h2>Archief — Biologie · BVJ Thema 2 BS1 · 2 · 3 · 6</h2>
-      <p>Boek: <code>@bvj-23a</code> (2/3 vwo/gym Deel A, 8.2). Voedingsstoffen, verteringsstelsel, organen, zoogdieren. “H2” = Thema 2.</p>
-      <ol class="toc">
-        <li><a href="lessons/BIO/0007-toetsroute-bvj-t2-bs1236.html">0007 · Toetsroute</a></li>
-        <li><a href="lessons/BIO/0008-voedingsstoffen.html">0008 · BS1 Voedingsstoffen</a></li>
-        <li><a href="lessons/BIO/0009-verteringsstelsel.html">0009 · BS2 Verteringsstelsel</a></li>
-        <li><a href="lessons/BIO/0010-organen-vertering.html">0010 · BS3 Organen</a></li>
-        <li><a href="lessons/BIO/0011-vertering-zoogdieren.html">0011 · BS6 Zoogdieren</a></li>
-        <li><a href="lessons/BIO/0012-toets-mix-bvj-t2.html">0012 · Toetsmix</a></li>
-      </ol>
-      <p><a href="reference/bio-bvj-t2-bs1236-begrippen.html">Begrippenkaart BIO BVJ T2</a> (printbaar)</p>
+      <div class="vak-group" aria-labelledby="grp-klassiek">
+        <h3 id="grp-klassiek">Klassieke talen</h3>
+        <div class="subject-grid" role="navigation" aria-label="Klassieke talen">
+          <a class="subject-card vak-gr" href="#gr">
+            <p class="sc-code">GR</p>
+            <p class="sc-title">Grieks</p>
+            <p class="sc-stof">ARGO les 11–14</p>
+            <p class="sc-desc">Indicativus, imperativus/infinitivus, εἰμί, lidwoord.</p>
+            <p class="sc-meta">@argo-1 · 6 lessen</p>
+          </a>
+          <a class="subject-card vak-la" href="#la">
+            <p class="sc-code">LA</p>
+            <p class="sc-title">Latijn</p>
+            <p class="sc-stof">DISCO H13–H15</p>
+            <p class="sc-desc">Adiectivum, relativum, AcI + Romulus &amp; Remus.</p>
+            <p class="sc-meta">@disco-1 · 6 lessen</p>
+          </a>
+        </div>
+      </div>
 
-      <h2>Archief — Grieks · ARGO les 11–14 (herbouwd)</h2>
-      <p>Boek: <code>@argo-1</code> (hulpboek 1, 2e editie). Tabellen eerst: ind/imp/inf · εἰμί · lidwoord m/v/o ev+mv · toetsmix.</p>
-      <ol class="toc">
-        <li><a href="lessons/Grieks/0008-toetsroute-argo-les11-14.html">0008 · Toetsroute</a></li>
-        <li><a href="lessons/Grieks/0009-indicativus-praesens.html">0009 · Indicativus praesens</a></li>
-        <li><a href="lessons/Grieks/0010-imperativus-infinitivus.html">0010 · Imperativus &amp; infinitivus</a></li>
-        <li><a href="lessons/Grieks/0011-eimi-en-modi-kiezen.html">0011 · εἰμί + modi kiezen</a></li>
-        <li><a href="lessons/Grieks/0012-naamval-in-tekst-troje.html">0012 · Lidwoord &amp; naamval</a></li>
-        <li><a href="lessons/Grieks/0013-toets-mix-argo-11-14.html">0013 · Toetsmix</a></li>
-      </ol>
-      <p><a href="reference/grieks-argo-11-14-begrippen.html">Begrippenkaart Grieks 11–14</a> (printbaar)</p>
+      <div class="hub-cluster" id="exacte-bundels">
+        <h2>Exacte vakken — lessen</h2>
+      </div>
 
-      <h2>Archief — Biologie · BVJ Thema 1 BS1 · 2 · 3 · 6</h2>
-      <p>Boek: <code>@bvj-23a</code> (2/3 vwo/gym Deel A, 8.2). Stofwisseling, verbranding, ademhalingsstelsel, ademhaling bij dieren.</p>
-      <ol class="toc">
-        <li><a href="lessons/BIO/0001-toetsroute-bvj-t1-bs1236.html">0001 · Toetsroute</a></li>
-        <li><a href="lessons/BIO/0002-stofwisseling.html">0002 · BS1 Stofwisseling</a></li>
-        <li><a href="lessons/BIO/0003-verbranding.html">0003 · BS2 Verbranding</a></li>
-        <li><a href="lessons/BIO/0004-ademhalingsstelsel.html">0004 · BS3 Ademhalingsstelsel</a></li>
-        <li><a href="lessons/BIO/0005-ademhaling-dieren.html">0005 · BS6 Ademhaling dieren</a></li>
-        <li><a href="lessons/BIO/0006-toets-mix-bvj-t1.html">0006 · Toetsmix</a></li>
-      </ol>
-      <p><a href="reference/bio-bvj-t1-bs1236-begrippen.html">Begrippenkaart BIO BVJ T1</a> (printbaar)</p>
+      <section class="bundle vak-na" id="na" aria-labelledby="na-title">
+        <a class="hub-back" href="#vakken">↑ Vakken</a>
+        <div class="bundle-head">
+          <h2 id="na-title">NA · Natuurkunde</h2>
+          <p>Boek <code>@nova-na-3a</code> (3 vg A, 5.1). Nova H1 Elektriciteit §1–4 + Vaardigheden 2·3·5·7.</p>
+        </div>
+        <p class="bundle-ref"><a href="reference/na-nova-h1-elektriciteit-begrippen.html">Begrippenkaart NA Nova H1</a> (printbaar)</p>
+        <div class="lesson-grid">
+          <a class="lesson-card vak-na" href="lessons/NA/0001-toetsroute-nova-h1.html">
+            <p class="lc-num">0001</p>
+            <p class="lc-title">Toetsroute</p>
+            <p class="lc-stof">H1 overzicht</p>
+            <p class="lc-desc">Volgorde, contrasten, start hier.</p>
+          </a>
+          <a class="lesson-card vak-na" href="lessons/NA/0002-elektrische-energie-opwekken.html">
+            <p class="lc-num">0002</p>
+            <p class="lc-title">Opwekken</p>
+            <p class="lc-stof">§1.1</p>
+            <p class="lc-desc">Centrale-keten, inductie, E = P·t.</p>
+          </a>
+          <a class="lesson-card vak-na" href="lessons/NA/0003-elektrische-energie-vervoeren.html">
+            <p class="lc-num">0003</p>
+            <p class="lc-title">Vervoeren</p>
+            <p class="lc-stof">§1.2</p>
+            <p class="lc-desc">Hoogspanning, transformator, 230 V.</p>
+          </a>
+          <a class="lesson-card vak-na" href="lessons/NA/0004-elektriciteit-in-huis.html">
+            <p class="lc-num">0004</p>
+            <p class="lc-title">In huis</p>
+            <p class="lc-stof">§1.3</p>
+            <p class="lc-desc">Parallelle groepen, P = U·I, overbelasting.</p>
+          </a>
+          <a class="lesson-card vak-na" href="lessons/NA/0005-elektriciteit-veiligheid.html">
+            <p class="lc-num">0005</p>
+            <p class="lc-title">Veiligheid</p>
+            <p class="lc-stof">§1.4</p>
+            <p class="lc-desc">Automaat, aardlek 30 mA, randaarde.</p>
+          </a>
+          <a class="lesson-card vak-na" href="lessons/NA/0006-vaardigheden-2-3-5-7.html">
+            <p class="lc-num">0006</p>
+            <p class="lc-title">Vaardigheden</p>
+            <p class="lc-stof">V2 · V3 · V5 · V7</p>
+            <p class="lc-desc">Eenheden, 10ⁿ, formules, afronden.</p>
+          </a>
+          <a class="lesson-card vak-na" href="lessons/NA/0007-toets-mix-nova-h1.html">
+            <p class="lc-num">0007</p>
+            <p class="lc-title">Toetsmix</p>
+            <p class="lc-stof">H1 + V2·3·5·7</p>
+            <p class="lc-desc">Alles door elkaar — oefentoets.</p>
+          </a>
+          <a class="lesson-card vak-na" href="lessons/NA/0008-flitskaarten-h1.html">
+            <p class="lc-num">0008</p>
+            <p class="lc-title">Flitskaarten</p>
+            <p class="lc-stof">H1 begrippen</p>
+            <p class="lc-desc">24 kaarten: begrip ↔ definitie.</p>
+          </a>
+        </div>
+      </section>
 
-      <h2>Archief — Geschiedenis · MEMO §1.2 · §1.3 · §2.4</h2>
-      <p>Boek: <code>@memo-3vwo</code> (release 5.1). Spanningen vóór WOI, Eerste Wereldoorlog, economische wereldcrisis.</p>
-      <ol class="toc">
-        <li><a href="lessons/GS/0001-toetsroute-memo-12-13-24.html">0001 · Toetsroute</a></li>
-        <li><a href="lessons/GS/0002-spanningen-in-de-wereld.html">0002 · §1.2 Spanningen</a></li>
-        <li><a href="lessons/GS/0003-eerste-wereldoorlog.html">0003 · §1.3 Eerste Wereldoorlog</a></li>
-        <li><a href="lessons/GS/0004-economische-wereldcrisis.html">0004 · §2.4 Wereldcrisis</a></li>
-        <li><a href="lessons/GS/0005-toets-mix-memo-12-13-24.html">0005 · Toetsmix</a></li>
-      </ol>
-      <p><a href="reference/gs-memo-12-13-24-begrippen.html">Begrippenkaart GS MEMO</a> (printbaar)</p>
+      <section class="bundle vak-sk" id="sk" aria-labelledby="sk-title">
+        <a class="hub-back" href="#vakken">↑ Vakken</a>
+        <div class="bundle-head">
+          <h2 id="sk-title">SK · Scheikunde</h2>
+          <p>Boek <code>@nova-3a</code> (3 vg A, 5.0). NOVA H1 + H2 t/m §2.3 — geen §2.4 verbranding.</p>
+        </div>
+        <p class="bundle-ref"><a href="reference/sk-nova-h1-h2-23-begrippen.html">Begrippenkaart SK NOVA H1–H2.3</a></p>
+        <div class="lesson-grid">
+          <a class="lesson-card vak-sk" href="lessons/SK/0001-toetsroute-nova-h1-h2-23.html">
+            <p class="lc-num">0001</p>
+            <p class="lc-title">Toetsroute</p>
+            <p class="lc-stof">H1–H2.3</p>
+            <p class="lc-desc">Volgorde en scope.</p>
+          </a>
+          <a class="lesson-card vak-sk" href="lessons/SK/0002-materialen.html">
+            <p class="lc-num">0002</p>
+            <p class="lc-title">Materialen</p>
+            <p class="lc-stof">§1.1</p>
+            <p class="lc-desc">Stoffen, eigenschappen, toepassingen.</p>
+          </a>
+          <a class="lesson-card vak-sk" href="lessons/SK/0003-deeltjesmodel.html">
+            <p class="lc-num">0003</p>
+            <p class="lc-title">Deeltjesmodel</p>
+            <p class="lc-stof">§1.2</p>
+            <p class="lc-desc">Moleculen, beweging, fasen.</p>
+          </a>
+          <a class="lesson-card vak-sk" href="lessons/SK/0004-zuiver-mengsel-scheiden.html">
+            <p class="lc-num">0004</p>
+            <p class="lc-title">Zuiver &amp; scheiden</p>
+            <p class="lc-stof">§1.3–1.4</p>
+            <p class="lc-desc">Zuivere stof vs mengsel; scheidingsmethoden.</p>
+          </a>
+          <a class="lesson-card vak-sk" href="lessons/SK/0005-moleculen-atomen.html">
+            <p class="lc-num">0005</p>
+            <p class="lc-title">Moleculen &amp; atomen</p>
+            <p class="lc-stof">§2.1</p>
+            <p class="lc-desc">Formules, atomen, elementen.</p>
+          </a>
+          <a class="lesson-card vak-sk" href="lessons/SK/0006-reacties-synthese-ontleding.html">
+            <p class="lc-num">0006</p>
+            <p class="lc-title">Reacties</p>
+            <p class="lc-stof">§2.2–2.3</p>
+            <p class="lc-desc">Synthese en ontleding.</p>
+          </a>
+          <a class="lesson-card vak-sk" href="lessons/SK/0007-toets-mix-nova-h1-h2-23.html">
+            <p class="lc-num">0007</p>
+            <p class="lc-title">Toetsmix</p>
+            <p class="lc-stof">H1–H2.3</p>
+            <p class="lc-desc">Alles door elkaar.</p>
+          </a>
+        </div>
+      </section>
 
-      <h2>Archief — Economie · PE H2 §1–4</h2>
-      <p>Boek: <code>@pe-3vwo</code> (release 6.2). Markt van vraag en aanbod — vraag, winst/aanbod, evenwicht, marktvormen.</p>
-      <ol class="toc">
-        <li><a href="lessons/EC/0001-toetsroute-pe-h2.html">0001 · Toetsroute</a></li>
-        <li><a href="lessons/EC/0002-kopen-is-kiezen.html">0002 · §1 Kopen is kiezen</a></li>
-        <li><a href="lessons/EC/0003-winst-is-winst.html">0003 · §2 Winst is winst</a></li>
-        <li><a href="lessons/EC/0004-marktevenwicht.html">0004 · §3 Marktevenwicht</a></li>
-        <li><a href="lessons/EC/0005-marktvormen.html">0005 · §4 Marktvormen</a></li>
-        <li><a href="lessons/EC/0006-toets-mix-pe-h2.html">0006 · Toetsmix</a></li>
-      </ol>
-      <p><a href="reference/ec-pe-h2-markt-begrippen.html">Begrippenkaart EC H2</a> (printbaar)</p>
+      <section class="bundle vak-bio" id="bio-t1" aria-labelledby="bio-t1-title">
+        <a class="hub-back" href="#vakken">↑ Vakken</a>
+        <div class="bundle-head">
+          <h2 id="bio-t1-title">BIO · Thema 1 Ademhaling</h2>
+          <p>Boek <code>@bvj-23a</code> (8.2). BVJ Thema 1 — BS1 · 2 · 3 · 6.</p>
+        </div>
+        <p class="bundle-ref"><a href="reference/bio-bvj-t1-bs1236-begrippen.html">Begrippenkaart BIO BVJ T1</a></p>
+        <div class="lesson-grid">
+          <a class="lesson-card vak-bio" href="lessons/BIO/0001-toetsroute-bvj-t1-bs1236.html">
+            <p class="lc-num">0001</p>
+            <p class="lc-title">Toetsroute</p>
+            <p class="lc-stof">T1 BS1·2·3·6</p>
+            <p class="lc-desc">Volgorde voor deze toets.</p>
+          </a>
+          <a class="lesson-card vak-bio" href="lessons/BIO/0002-stofwisseling.html">
+            <p class="lc-num">0002</p>
+            <p class="lc-title">Stofwisseling</p>
+            <p class="lc-stof">T1 BS1</p>
+            <p class="lc-desc">Opbouw, afbraak, energie.</p>
+          </a>
+          <a class="lesson-card vak-bio" href="lessons/BIO/0003-verbranding.html">
+            <p class="lc-num">0003</p>
+            <p class="lc-title">Verbranding</p>
+            <p class="lc-stof">T1 BS2</p>
+            <p class="lc-desc">Cellulaire verbranding en O₂/CO₂.</p>
+          </a>
+          <a class="lesson-card vak-bio" href="lessons/BIO/0004-ademhalingsstelsel.html">
+            <p class="lc-num">0004</p>
+            <p class="lc-title">Ademhalingsstelsel</p>
+            <p class="lc-stof">T1 BS3</p>
+            <p class="lc-desc">Organen en gaswisseling.</p>
+          </a>
+          <a class="lesson-card vak-bio" href="lessons/BIO/0005-ademhaling-dieren.html">
+            <p class="lc-num">0005</p>
+            <p class="lc-title">Ademhaling dieren</p>
+            <p class="lc-stof">T1 BS6</p>
+            <p class="lc-desc">Vergelijken bij dieren.</p>
+          </a>
+          <a class="lesson-card vak-bio" href="lessons/BIO/0006-toets-mix-bvj-t1.html">
+            <p class="lc-num">0006</p>
+            <p class="lc-title">Toetsmix</p>
+            <p class="lc-stof">T1 BS1·2·3·6</p>
+            <p class="lc-desc">Alles door elkaar.</p>
+          </a>
+        </div>
+      </section>
 
-      <h2>Archief — Latijn · DISCO H13–H15</h2>
-      <p>Boek: <code>@disco-1</code> (4e herziene druk). Teksten 13a/14a, grammatica adiectivum · relativum · AcI, cultuur Romulus &amp; Remus.</p>
-      <ol class="toc">
-        <li><a href="lessons/Latijn/0001-toetsroute-disco-13-15.html">0001 · Toetsroute</a></li>
-        <li><a href="lessons/Latijn/0002-adiectivum-congruentie.html">0002 · H13 Adiectivum</a></li>
-        <li><a href="lessons/Latijn/0003-betrekkelijk-voornaamwoord.html">0003 · H14 Relativum</a></li>
-        <li><a href="lessons/Latijn/0004-aci.html">0004 · H15 AcI</a></li>
-        <li><a href="lessons/Latijn/0005-cultuur-romulus-remus.html">0005 · Cultuur Romulus &amp; Remus</a></li>
-        <li><a href="lessons/Latijn/0006-toets-mix-disco-13-15.html">0006 · Toetsmix</a></li>
-      </ol>
-      <p><a href="reference/latijn-disco-13-15-begrippen.html">Begrippenkaart Latijn 13–15</a> (printbaar)</p>
+      <section class="bundle vak-bio" id="bio-t2" aria-labelledby="bio-t2-title">
+        <a class="hub-back" href="#vakken">↑ Vakken</a>
+        <div class="bundle-head">
+          <h2 id="bio-t2-title">BIO · Thema 2 Vertering</h2>
+          <p>Boek <code>@bvj-23a</code> (8.2). BVJ Thema 2 — BS1 · 2 · 3 · 6.</p>
+        </div>
+        <p class="bundle-ref"><a href="reference/bio-bvj-t2-bs1236-begrippen.html">Begrippenkaart BIO BVJ T2</a></p>
+        <div class="lesson-grid">
+          <a class="lesson-card vak-bio" href="lessons/BIO/0007-toetsroute-bvj-t2-bs1236.html">
+            <p class="lc-num">0007</p>
+            <p class="lc-title">Toetsroute</p>
+            <p class="lc-stof">T2 BS1·2·3·6</p>
+            <p class="lc-desc">Volgorde voor deze toets.</p>
+          </a>
+          <a class="lesson-card vak-bio" href="lessons/BIO/0008-voedingsstoffen.html">
+            <p class="lc-num">0008</p>
+            <p class="lc-title">Voedingsstoffen</p>
+            <p class="lc-stof">T2 BS1</p>
+            <p class="lc-desc">Typen voedingsstoffen en functie.</p>
+          </a>
+          <a class="lesson-card vak-bio" href="lessons/BIO/0009-verteringsstelsel.html">
+            <p class="lc-num">0009</p>
+            <p class="lc-title">Verteringsstelsel</p>
+            <p class="lc-stof">T2 BS2</p>
+            <p class="lc-desc">Weg van voedsel door het lichaam.</p>
+          </a>
+          <a class="lesson-card vak-bio" href="lessons/BIO/0010-organen-vertering.html">
+            <p class="lc-num">0010</p>
+            <p class="lc-title">Organen</p>
+            <p class="lc-stof">T2 BS3</p>
+            <p class="lc-desc">Rol van organen bij vertering.</p>
+          </a>
+          <a class="lesson-card vak-bio" href="lessons/BIO/0011-vertering-zoogdieren.html">
+            <p class="lc-num">0011</p>
+            <p class="lc-title">Zoogdieren</p>
+            <p class="lc-stof">T2 BS6</p>
+            <p class="lc-desc">Vertering bij zoogdieren vergelijken.</p>
+          </a>
+          <a class="lesson-card vak-bio" href="lessons/BIO/0012-toets-mix-bvj-t2.html">
+            <p class="lc-num">0012</p>
+            <p class="lc-title">Toetsmix</p>
+            <p class="lc-stof">T2 BS1·2·3·6</p>
+            <p class="lc-desc">Alles door elkaar.</p>
+          </a>
+        </div>
+      </section>
+
+      <div class="hub-cluster" id="mm-bundels">
+        <h2>Mens &amp; maatschappij — lessen</h2>
+      </div>
+
+      <section class="bundle vak-ak" id="ak" aria-labelledby="ak-title">
+        <a class="hub-back" href="#vakken">↑ Vakken</a>
+        <div class="bundle-head">
+          <h2 id="ak-title">AK · Aardrijkskunde</h2>
+          <p>Boek <code>@de-geo-3vwo</code> (10.1) + Basisboek. Chili H3§1–3 + India H5§1,3.</p>
+        </div>
+        <p class="bundle-ref"><a href="reference/ak-chili-india-begrippen.html">Begrippen + Basisboek Chili/India</a></p>
+        <div class="lesson-grid">
+          <a class="lesson-card vak-ak" href="lessons/AK/0001-toetsroute-chili-india.html">
+            <p class="lc-num">0001</p>
+            <p class="lc-title">Toetsroute</p>
+            <p class="lc-stof">Chili + India</p>
+            <p class="lc-desc">Volgorde en wat je moet kunnen.</p>
+          </a>
+          <a class="lesson-card vak-ak" href="lessons/AK/0002-chili-klimaat.html">
+            <p class="lc-num">0002</p>
+            <p class="lc-title">Chili klimaat</p>
+            <p class="lc-stof">H3 §1</p>
+            <p class="lc-desc">Klimaatgordels en oorzaken in Chili.</p>
+          </a>
+          <a class="lesson-card vak-ak" href="lessons/AK/0003-chili-beeft.html">
+            <p class="lc-num">0003</p>
+            <p class="lc-title">Chili beeft</p>
+            <p class="lc-stof">H3 §2</p>
+            <p class="lc-desc">Aardbevingen, platen, risico’s.</p>
+          </a>
+          <a class="lesson-card vak-ak" href="lessons/AK/0004-chili-brandt.html">
+            <p class="lc-num">0004</p>
+            <p class="lc-title">Chili brandt</p>
+            <p class="lc-stof">H3 §3</p>
+            <p class="lc-desc">Vulkanisme en brandgevaar.</p>
+          </a>
+          <a class="lesson-card vak-ak" href="lessons/AK/0005-india-verschillen.html">
+            <p class="lc-num">0005</p>
+            <p class="lc-title">India verschillen</p>
+            <p class="lc-stof">H5 §1</p>
+            <p class="lc-desc">Regionale en sociale contrasten.</p>
+          </a>
+          <a class="lesson-card vak-ak" href="lessons/AK/0006-booming-india.html">
+            <p class="lc-num">0006</p>
+            <p class="lc-title">Booming India</p>
+            <p class="lc-stof">H5 §3</p>
+            <p class="lc-desc">Groei, steden, economie.</p>
+          </a>
+          <a class="lesson-card vak-ak" href="lessons/AK/0007-toets-mix-chili-india.html">
+            <p class="lc-num">0007</p>
+            <p class="lc-title">Toetsmix</p>
+            <p class="lc-stof">Chili + India</p>
+            <p class="lc-desc">Alles door elkaar.</p>
+          </a>
+          <a class="lesson-card vak-ak" href="lessons/AK/0008-basisboek-chili-india.html">
+            <p class="lc-num">0008</p>
+            <p class="lc-title">Basisboek-drill</p>
+            <p class="lc-stof">B54–B256</p>
+            <p class="lc-desc">Begrippenlijst oefenen.</p>
+          </a>
+        </div>
+      </section>
+
+      <section class="bundle vak-gs" id="gs" aria-labelledby="gs-title">
+        <a class="hub-back" href="#vakken">↑ Vakken</a>
+        <div class="bundle-head">
+          <h2 id="gs-title">GS · Geschiedenis</h2>
+          <p>Boek <code>@memo-3vwo</code> (5.1). MEMO §1.2 · §1.3 · §2.4.</p>
+        </div>
+        <p class="bundle-ref"><a href="reference/gs-memo-12-13-24-begrippen.html">Begrippenkaart GS MEMO</a></p>
+        <div class="lesson-grid">
+          <a class="lesson-card vak-gs" href="lessons/GS/0001-toetsroute-memo-12-13-24.html">
+            <p class="lc-num">0001</p>
+            <p class="lc-title">Toetsroute</p>
+            <p class="lc-stof">§1.2 · §1.3 · §2.4</p>
+            <p class="lc-desc">Volgorde en kerncontrasten.</p>
+          </a>
+          <a class="lesson-card vak-gs" href="lessons/GS/0002-spanningen-in-de-wereld.html">
+            <p class="lc-num">0002</p>
+            <p class="lc-title">Spanningen</p>
+            <p class="lc-stof">§1.2</p>
+            <p class="lc-desc">Spanningen vóór de Eerste Wereldoorlog.</p>
+          </a>
+          <a class="lesson-card vak-gs" href="lessons/GS/0003-eerste-wereldoorlog.html">
+            <p class="lc-num">0003</p>
+            <p class="lc-title">Eerste Wereldoorlog</p>
+            <p class="lc-stof">§1.3</p>
+            <p class="lc-desc">Verloop, fronten, gevolgen.</p>
+          </a>
+          <a class="lesson-card vak-gs" href="lessons/GS/0004-economische-wereldcrisis.html">
+            <p class="lc-num">0004</p>
+            <p class="lc-title">Wereldcrisis</p>
+            <p class="lc-stof">§2.4</p>
+            <p class="lc-desc">Economische crisis en impact.</p>
+          </a>
+          <a class="lesson-card vak-gs" href="lessons/GS/0005-toets-mix-memo-12-13-24.html">
+            <p class="lc-num">0005</p>
+            <p class="lc-title">Toetsmix</p>
+            <p class="lc-stof">§1.2 · §1.3 · §2.4</p>
+            <p class="lc-desc">Alles door elkaar.</p>
+          </a>
+        </div>
+      </section>
+
+      <section class="bundle vak-ec" id="ec" aria-labelledby="ec-title">
+        <a class="hub-back" href="#vakken">↑ Vakken</a>
+        <div class="bundle-head">
+          <h2 id="ec-title">EC · Economie</h2>
+          <p>Boek <code>@pe-3vwo</code> (6.2). PE H2 §1–4 — markt van vraag en aanbod.</p>
+        </div>
+        <p class="bundle-ref"><a href="reference/ec-pe-h2-markt-begrippen.html">Begrippenkaart EC H2</a></p>
+        <div class="lesson-grid">
+          <a class="lesson-card vak-ec" href="lessons/EC/0001-toetsroute-pe-h2.html">
+            <p class="lc-num">0001</p>
+            <p class="lc-title">Toetsroute</p>
+            <p class="lc-stof">H2 §1–4</p>
+            <p class="lc-desc">Volgorde voor deze toets.</p>
+          </a>
+          <a class="lesson-card vak-ec" href="lessons/EC/0002-kopen-is-kiezen.html">
+            <p class="lc-num">0002</p>
+            <p class="lc-title">Kopen is kiezen</p>
+            <p class="lc-stof">H2 §1</p>
+            <p class="lc-desc">Vraag, nut, keuzes van consumenten.</p>
+          </a>
+          <a class="lesson-card vak-ec" href="lessons/EC/0003-winst-is-winst.html">
+            <p class="lc-num">0003</p>
+            <p class="lc-title">Winst is winst</p>
+            <p class="lc-stof">H2 §2</p>
+            <p class="lc-desc">Kosten, opbrengst, aanbod.</p>
+          </a>
+          <a class="lesson-card vak-ec" href="lessons/EC/0004-marktevenwicht.html">
+            <p class="lc-num">0004</p>
+            <p class="lc-title">Marktevenwicht</p>
+            <p class="lc-stof">H2 §3</p>
+            <p class="lc-desc">Prijsvorming bij vraag = aanbod.</p>
+          </a>
+          <a class="lesson-card vak-ec" href="lessons/EC/0005-marktvormen.html">
+            <p class="lc-num">0005</p>
+            <p class="lc-title">Marktvormen</p>
+            <p class="lc-stof">H2 §4</p>
+            <p class="lc-desc">Concurrentie tot monopolie.</p>
+          </a>
+          <a class="lesson-card vak-ec" href="lessons/EC/0006-toets-mix-pe-h2.html">
+            <p class="lc-num">0006</p>
+            <p class="lc-title">Toetsmix</p>
+            <p class="lc-stof">H2 §1–4</p>
+            <p class="lc-desc">Alles door elkaar.</p>
+          </a>
+        </div>
+      </section>
+
+      <div class="hub-cluster" id="klassiek-bundels">
+        <h2>Klassieke talen — lessen</h2>
+      </div>
+
+      <section class="bundle vak-gr" id="gr" aria-labelledby="gr-title">
+        <a class="hub-back" href="#vakken">↑ Vakken</a>
+        <div class="bundle-head">
+          <h2 id="gr-title">GR · Grieks</h2>
+          <p>Boek <code>@argo-1</code> (hulpboek 1, 2e). ARGO les 11–14.</p>
+        </div>
+        <p class="bundle-ref"><a href="reference/grieks-argo-11-14-begrippen.html">Begrippenkaart Grieks 11–14</a></p>
+        <div class="lesson-grid">
+          <a class="lesson-card vak-gr" href="lessons/Grieks/0008-toetsroute-argo-les11-14.html">
+            <p class="lc-num">0008</p>
+            <p class="lc-title">Toetsroute</p>
+            <p class="lc-stof">Les 11–14</p>
+            <p class="lc-desc">Tabellen eerst, dan oefenen.</p>
+          </a>
+          <a class="lesson-card vak-gr" href="lessons/Grieks/0009-indicativus-praesens.html">
+            <p class="lc-num">0009</p>
+            <p class="lc-title">Indicativus praesens</p>
+            <p class="lc-stof">Les 11–12</p>
+            <p class="lc-desc">Paradigma’s ev+mv dreunen.</p>
+          </a>
+          <a class="lesson-card vak-gr" href="lessons/Grieks/0010-imperativus-infinitivus.html">
+            <p class="lc-num">0010</p>
+            <p class="lc-title">Imperativus &amp; infinitivus</p>
+            <p class="lc-stof">Les 12–13</p>
+            <p class="lc-desc">Gebod en onbepaalde wijs.</p>
+          </a>
+          <a class="lesson-card vak-gr" href="lessons/Grieks/0011-eimi-en-modi-kiezen.html">
+            <p class="lc-num">0011</p>
+            <p class="lc-title">εἰμί + modi</p>
+            <p class="lc-stof">Les 13</p>
+            <p class="lc-desc">Zijn-werkwoord en modus kiezen.</p>
+          </a>
+          <a class="lesson-card vak-gr" href="lessons/Grieks/0012-naamval-in-tekst-troje.html">
+            <p class="lc-num">0012</p>
+            <p class="lc-title">Lidwoord &amp; naamval</p>
+            <p class="lc-stof">Les 14</p>
+            <p class="lc-desc">m/v/o ev+mv in tekst.</p>
+          </a>
+          <a class="lesson-card vak-gr" href="lessons/Grieks/0013-toets-mix-argo-11-14.html">
+            <p class="lc-num">0013</p>
+            <p class="lc-title">Toetsmix</p>
+            <p class="lc-stof">Les 11–14</p>
+            <p class="lc-desc">Alles door elkaar.</p>
+          </a>
+        </div>
+      </section>
+
+      <section class="bundle vak-la" id="la" aria-labelledby="la-title">
+        <a class="hub-back" href="#vakken">↑ Vakken</a>
+        <div class="bundle-head">
+          <h2 id="la-title">LA · Latijn</h2>
+          <p>Boek <code>@disco-1</code> (4e herziene druk). DISCO H13–H15 + cultuur.</p>
+        </div>
+        <p class="bundle-ref"><a href="reference/latijn-disco-13-15-begrippen.html">Begrippenkaart Latijn 13–15</a></p>
+        <div class="lesson-grid">
+          <a class="lesson-card vak-la" href="lessons/Latijn/0001-toetsroute-disco-13-15.html">
+            <p class="lc-num">0001</p>
+            <p class="lc-title">Toetsroute</p>
+            <p class="lc-stof">H13–H15</p>
+            <p class="lc-desc">Volgorde en wat je moet kunnen.</p>
+          </a>
+          <a class="lesson-card vak-la" href="lessons/Latijn/0002-adiectivum-congruentie.html">
+            <p class="lc-num">0002</p>
+            <p class="lc-title">Adiectivum</p>
+            <p class="lc-stof">H13</p>
+            <p class="lc-desc">Congruentie bijvoeglijk naamwoord.</p>
+          </a>
+          <a class="lesson-card vak-la" href="lessons/Latijn/0003-betrekkelijk-voornaamwoord.html">
+            <p class="lc-num">0003</p>
+            <p class="lc-title">Relativum</p>
+            <p class="lc-stof">H14</p>
+            <p class="lc-desc">Betrekkelijk voornaamwoord.</p>
+          </a>
+          <a class="lesson-card vak-la" href="lessons/Latijn/0004-aci.html">
+            <p class="lc-num">0004</p>
+            <p class="lc-title">AcI</p>
+            <p class="lc-stof">H15</p>
+            <p class="lc-desc">Accusativus cum infinitivo.</p>
+          </a>
+          <a class="lesson-card vak-la" href="lessons/Latijn/0005-cultuur-romulus-remus.html">
+            <p class="lc-num">0005</p>
+            <p class="lc-title">Romulus &amp; Remus</p>
+            <p class="lc-stof">Cultuur</p>
+            <p class="lc-desc">Stichtingsmythe van Rome.</p>
+          </a>
+          <a class="lesson-card vak-la" href="lessons/Latijn/0006-toets-mix-disco-13-15.html">
+            <p class="lc-num">0006</p>
+            <p class="lc-title">Toetsmix</p>
+            <p class="lc-stof">H13–H15</p>
+            <p class="lc-desc">Alles door elkaar.</p>
+          </a>
+        </div>
+      </section>
 
       <h2>Tip</h2>
       <p>Eerst zelf antwoorden in de quiz, daarna pas controleren. Herhaal de toetsmix de dag vóór de toets.</p>
