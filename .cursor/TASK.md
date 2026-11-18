@@ -1,27 +1,29 @@
 # Goal
 
-Vakkenhub + leskaarten met stofanker op `index.html` (tablet/keuken).
+Interactieve GS-eindtoets WOI (§1.3) voor Lennart: diepere vragen, goed/fout + verklaring + bron.
 
 # Done
 
-- [x] CSS: `.subject-grid` / `.lesson-grid` / cards (tablet-vriendelijk)
-- [x] `index.html`: vakkaarten → ankers → leskaarten met §/H/BS + korte desc
-- [x] Actief/archief verwijderd; vakkleuren; groepen Exact / M&M / Klassiek
-- [x] BIO T1+T2zelfde groen; leskaarten delen vakkleur
+- [x] quiz.js: optionele uitleg/bron per vraag (backward compatible)
+- [x] `lessons/GS/0006-eindtoets-woi.html`
+- [x] Koppeling index + nav + lennart.md
+- [x] Commit taakbestanden
 
 # Next
 
-- [ ] Oefensessie: start hub → NA → `0001` of flits `0008`
-- [ ] Optioneel: PDF `@nova-na-3a` droppen in `books/lennart/`
-- [ ] Bevestig of H1-praktijk “supernetwerk” meespeelt
+- [ ] (na commit) AK-kaart 0009 opnieuw in index als WIP
 
 # Files
 
-- `index.html`
+- `assets/quiz.js`
 - `assets/lesson.css`
+- `lessons/GS/0006-eindtoets-woi.html`
+- `lessons/GS/0005-toets-mix-memo-12-13-24.html`
+- `lessons/GS/0003-eerste-wereldoorlog.html`
+- `index.html`
+- `kids/lennart.md`
+- `.cursor/TASK.md`
 
 # Open problems
 
-- PDF `@nova-na-3a` ontbreekt — cijfers/figuren/kleuren check boek
-- Bevestig Praktijk-supernetwerk in/out of scope
-
+- Geen
